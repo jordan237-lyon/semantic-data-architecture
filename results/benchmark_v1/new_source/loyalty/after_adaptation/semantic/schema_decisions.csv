@@ -1,0 +1,25 @@
+source,source_concept,source_column,inferred_type,detected_format,semantic_attribute,name_score,type_score,value_score,total_score,second_candidate,second_score,score_margin,decision,decision_reason
+crm,Customer,client_id,string,,Customer.identifier,1.0,1.0,1.0,1.0,SupportTicket.identifier,0.824333,0.175667,accepted,Score et marge suffisants
+crm,Customer,first_name,string,,Customer.full_name,1.0,1.0,1.0,1.0,Customer.country,0.772727,0.227273,accepted,Score et marge suffisants
+crm,Customer,last_name,string,,Customer.full_name,1.0,1.0,1.0,1.0,Customer.country,0.785714,0.214286,accepted,Score et marge suffisants
+crm,Customer,email,string,email,Customer.email,1.0,1.0,1.0,1.0,Customer.identifier,0.714286,0.285714,accepted,Score et marge suffisants
+crm,Customer,country,string,,Customer.country,1.0,1.0,1.0,1.0,Transaction.account_reference,0.785118,0.214882,accepted,Score et marge suffisants
+crm,Customer,created_at,date,date,Customer.created_at,1.0,1.0,1.0,1.0,SupportTicket.created_at,0.991,0.009,review,Validation requise : marge 0.009 < 0.100
+finance,Transaction,transaction_id,string,,Transaction.identifier,1.0,1.0,1.0,1.0,Customer.identifier,0.741,0.259,accepted,Score et marge suffisants
+finance,Transaction,account_id,string,,Transaction.account_reference,1.0,1.0,1.0,1.0,Customer.identifier,0.829,0.171,accepted,Score et marge suffisants
+finance,Transaction,customer_name,string,,Customer.full_name,1.0,1.0,0.97,0.991,SupportTicket.customer_reference,0.891,0.1,accepted,Score et marge suffisants
+finance,Transaction,contact_email,string,email,Customer.email,1.0,1.0,0.97,0.991,Transaction.account_reference,0.76087,0.23013,accepted,Score et marge suffisants
+finance,Transaction,country_code,string,country_code,Customer.country,1.0,1.0,0.97,0.991,Transaction.account_reference,0.818182,0.172818,accepted,Score et marge suffisants
+finance,Transaction,amount,decimal,,Transaction.amount,1.0,1.0,1.0,1.0,Customer.ticket_count,0.673222,0.326778,accepted,Score et marge suffisants
+finance,Transaction,transaction_date,date,date,Transaction.transaction_date,1.0,1.0,1.0,1.0,SupportTicket.created_at,0.672818,0.327182,accepted,Score et marge suffisants
+loyalty,Customer,member_id,string,,Customer.identifier,1.0,1.0,1.0,1.0,SupportTicket.identifier,0.713222,0.286778,accepted,Score et marge suffisants
+loyalty,Customer,display_name,string,,Customer.full_name,1.0,1.0,1.0,1.0,Customer.country,0.75,0.25,accepted,Score et marge suffisants
+loyalty,Customer,email_address,string,email,Customer.email,1.0,1.0,1.0,1.0,Customer.country,0.710526,0.289474,accepted,Score et marge suffisants
+loyalty,Customer,market,string,country_code,Customer.country,1.0,1.0,1.0,1.0,Customer.full_name,0.657895,0.342105,accepted,Score et marge suffisants
+loyalty,Customer,joined_on,date,date,Customer.created_at,1.0,1.0,1.0,1.0,SupportTicket.created_at,0.648895,0.351105,accepted,Score et marge suffisants
+support,SupportTicket,ticket_id,string,,SupportTicket.identifier,1.0,1.0,1.0,1.0,Customer.identifier,0.824333,0.175667,accepted,Score et marge suffisants
+support,SupportTicket,customer_ref,string,,SupportTicket.customer_reference,1.0,1.0,1.0,1.0,Customer.full_name,0.891,0.109,accepted,Score et marge suffisants
+support,SupportTicket,full_name,string,,Customer.full_name,1.0,1.0,0.97,0.991,Customer.country,0.776714,0.214286,accepted,Score et marge suffisants
+support,SupportTicket,mail,string,email,Customer.email,1.0,1.0,0.97,0.991,Customer.country,0.691,0.3,accepted,Score et marge suffisants
+support,SupportTicket,country_name,string,,Customer.country,1.0,1.0,0.97,0.991,Customer.full_name,0.811,0.18,accepted,Score et marge suffisants
+support,SupportTicket,created_at,date,date,SupportTicket.created_at,1.0,1.0,1.0,1.0,Customer.created_at,0.991,0.009,review,Validation requise : marge 0.009 < 0.100

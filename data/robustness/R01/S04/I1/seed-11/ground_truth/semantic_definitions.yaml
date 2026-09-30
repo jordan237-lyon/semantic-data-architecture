@@ -1,0 +1,4 @@
+scenario: R01-S04
+break_date: '2025-07-01'
+drift_points: 15
+expected_a3_decision: review

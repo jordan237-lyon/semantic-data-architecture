@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,reason
+finance,gross_amount,,review,0.8,Mesure numérique sans concept métier ni granularité
+sales,turnover_value,,review,0.8,Mesure numérique sans concept métier ni granularité

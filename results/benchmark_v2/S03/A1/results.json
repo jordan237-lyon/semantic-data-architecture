@@ -1,0 +1,17 @@
+{
+  "semantic_quality": {
+    "expected_mappings": 2,
+    "accepted_correct": 0,
+    "accepted_incorrect": 0,
+    "gross_net_confusions": 0,
+    "review_mappings": 2,
+    "candidate_accuracy": 0.0,
+    "coverage": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "human_reviews_required": 2,
+  "grain_handling": "technical_profile_only",
+  "execution_time_seconds": 0.000189
+}

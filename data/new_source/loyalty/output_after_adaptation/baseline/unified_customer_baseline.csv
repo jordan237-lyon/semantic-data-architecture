@@ -1,0 +1,127 @@
+crm_client_id,crm_full_name,crm_country,created_at,support_customer_ref,support_full_name,support_country,ticket_count,finance_account_id,finance_full_name,finance_country,revenue,loyalty_member_id,loyalty_full_name,loyalty_country,loyalty_created_at,email_norm
+,,,,,,,,ACC0062,Marie Robert,Canada,8858.85,,,,,
+,,,,,,,,ACC0093,Hugo Richard,Cameroon,3604.37,,,,,
+,,,,,,,,ACC0029,Nicolas Martin,France,4336.0,,,,,
+,,,,SUP-0015,Dupont Louis,France,9.0,,,,,,,,,
+,,,,SUP-0048,Julie Bernard,Canada,9.0,,,,,,,,,
+,,,,SUP-0084,Sophie Richard,Italy,7.0,,,,,,,,,
+CRM0057,Antoine Bernard,France,2025-02-26,SUP-0057,Bernard Antoine,France,3.0,ACC0057,Antoine Bernard,France,8172.0,LOY0057,Antoine Bernard,France,2025-02-26,antoine.bernard.57@demo.org
+CRM0017,Antoine Dupont,Germany,2025-01-17,SUP-0017,Antoine Dupont,Germany,4.0,,,,,LOY0017,Antoine Dupont,Germany,2025-01-17,antoine.dupont.17@mail.com
+CRM0037,Antoine Martin,Cameroon,2025-02-06,SUP-0037,Antoine Martin,Cameroon,9.0,ACC0037,Antoine Martin,Cameroon,5432.37,LOY0037,Antoine Martin,Cameroon,2025-02-06,antoine.martin.37@example.com
+CRM0117,Antoine Petit,Belgium,2025-04-27,,,,,ACC0117,Antoine Petit,Belgium,6893.48,,,,,antoine.petit.117@demo.org
+CRM0097,Antoine Richard,Canada,2025-04-07,SUP-0097,Antoine Richard,Canada,2.0,ACC0097,Antoine Richard,Canada,4153.85,,,,,antoine.richard.97@example.com
+CRM0077,Antoine Robert,Italy,2025-03-18,SUP-0077,Antoine Robert,Italy,8.0,ACC0077,Antoine Robert,Italy,1414.22,LOY0077,Antoine Robert,Italy,2025-03-18,antoine.robert.77@mail.com
+CRM0054,Camille Bernard,Belgium,2025-02-23,SUP-0054,Camille Bernard,Belgium,5.0,ACC0054,Camille Bernard,Belgium,7762.48,LOY0054,Camille Bernard,Belgium,2025-02-23,camille.bernard.54@demo.org
+CRM0014,Camille Dupont,Italy,2025-01-14,SUP-0014,Camille Dupont,Italy,6.0,,,,,LOY0014,Camille Dupont,Italy,2025-01-14,camille.dupont.14@mail.com
+CRM0034,Camille Martin,Canada,2025-02-03,,,,,ACC0034,Camille Martin,Canada,5022.85,LOY0034,Camille Martin,Canada,2025-02-03,camille.martin.34@example.com
+CRM0114,Camille Petit,Cameroon,2025-04-24,,,,,ACC0114,Camille Petit,Cameroon,6481.37,,,,,camille.petit.114@demo.org
+CRM0094,Camille Richard,Germany,2025-04-04,SUP-0094,Camille Richard,Germany,4.0,ACC0094,Camille Richard,Germany,3741.74,,,,,camille.richard.94@example.com
+CRM0074,Camille Robert,Spain,2025-03-15,SUP-0074,Camille Robert,Spain,10.0,ACC0074,Camille Robert,Spain,1002.11,LOY0074,Camille Robert,Spain,2025-03-15,camille.robert.74@mail.com
+CRM0060,Chloe Bernard,Spain,2025-03-01,SUP-0060,Chloe Bernard,Spain,1.0,ACC0060,Chloe Bernard,Spain,8584.11,LOY0060,Chloe Bernard,Spain,2025-03-01,chloe.bernard.60@demo.org
+CRM0020,Chloe Dupont,Canada,2025-01-20,SUP-0020,Chloe Dupont,Canada,2.0,,,,,LOY0020,Chloe Dupont,Canada,2025-01-20,chloe.dupont.20@mail.com
+CRM0040,Chloe Martin,Belgium,2025-02-09,SUP-0040,Chloe Martin,Belgium,7.0,ACC0040,Chloe Martin,Belgium,5844.48,LOY0040,Chloe Martin,Belgium,2025-02-09,chloe.martin.40@example.com
+CRM0120,Chloe Petit,France,2025-04-30,,,,,ACC0120,Chloe Petit,France,7303.0,,,,,chloe.petit.120@demo.org
+CRM0100,Chloe Richard,Cameroon,2025-04-10,,,,,ACC0100,Chloe Richard,Cameroon,4563.37,,,,,chloe.richard.100@example.com
+CRM0080,Chloe Robert,Germany,2025-03-21,SUP-0080,Chloe Robert,Germany,6.0,ACC0080,Chloe Robert,Germany,1823.74,LOY0080,Chloe Robert,Germany,2025-03-21,chloe.robert.80@mail.com
+CRM0052,Claire Bernard,Germany,2025-02-21,SUP-0052,Claire Bernard,Germany,10.0,ACC0052,Claire Bernard,Germany,7487.74,LOY0052,Claire Bernard,Germany,2025-02-21,claire.bernard.52@example.com
+CRM0012,Claire Dupont,Belgium,2025-01-12,,,,,,,,,LOY0012,Claire Dupont,Belgium,2025-01-12,claire.dupont.12@demo.org
+CRM0032,Claire Martin,Spain,2025-02-01,SUP-0032,Claire Martin,Spain,5.0,ACC0032,Claire Martin,Spain,4748.11,LOY0032,Claire Martin,Spain,2025-02-01,claire.martin.32@mail.com
+CRM0112,Claire Petit,Italy,2025-04-22,,,,,ACC0112,Claire Petit,Italy,6209.219999999999,,,,,claire.petit.112@example.com
+CRM0092,Claire Richard,France,2025-04-02,SUP-0092,Richard Claire,France,9.0,ACC0092,Claire Richard,France,3467.0,,,,,claire.richard.92@mail.com
+CRM0072,Claire Robert,Cameroon,2025-03-13,SUP-0072,Claire Robert,Cameroon,4.0,ACC0072,Claire Robert,Cameroon,727.37,LOY0072,Claire Robert,Cameroon,2025-03-13,claire.robert.72@demo.org
+CRM0046,Emma Bernard,Spain,2025-02-15,SUP-0046,Emma Bernard,Spain,3.0,ACC0046,Emma Bernard,Spain,6666.110000000001,LOY0046,Emma Bernard,Spain,2025-02-15,emma.bernard.46@example.com
+CRM0006,Emma Dupont,Canada,2025-01-06,SUP-0006,Emma Dupont,Canada,4.0,,,,,LOY0006,Emma Dupont,Canada,2025-01-06,emma.dupont.6@demo.org
+CRM0026,Emma Martin,Belgium,2025-01-26,SUP-0026,Emma Martin,Belgium,9.0,ACC0026,Emma Martin,Belgium,3926.48,LOY0026,Emma Martin,Belgium,2025-01-26,emma.martin.26@mail.com
+CRM0106,Emma Petit,France,2025-04-16,,,,,ACC0106,Emma Petit,France,5385.0,,,,,emma.petit.106@example.com
+CRM0086,Emma Richard,Cameroon,2025-03-27,SUP-0086,Emma Richard,Cameroon,2.0,ACC0086,Emma Richard,Cameroon,2645.37,,,,,emma.richard.86@mail.com
+CRM0066,Emma Robert,Germany,2025-03-07,SUP-0066,Emma Robert,Germany,8.0,ACC0066,Emma Robert,Germany,9405.74,LOY0066,Emma Robert,Germany,2025-03-07,emma.robert.66@demo.org
+CRM0053,Hugo Bernard,Spain,2025-02-22,SUP-0053,Hugo Bernard,Spain,2.0,ACC0053,Hugo Bernard,Spain,7625.11,LOY0053,Hugo Bernard,Spain,2025-02-22,hugo.bernard.53@mail.com
+CRM0013,Hugo Dupont,Canada,2025-01-13,SUP-0013,Hugo Dupont,Canada,3.0,,,,,LOY0013,Hugo Dupont,Canada,2025-01-13,hugo.dupont.13@example.com
+CRM0033,Hugo Martin,Belgium,2025-02-02,SUP-0033,Hugo Martin,Belgium,8.0,ACC0033,Hugo Martin,Belgium,4885.48,LOY0033,Hugo Martin,Belgium,2025-02-02,hugo.martin.33@demo.org
+CRM0113,Hugo Petit,France,2025-04-23,,,,,ACC0113,Hugo Petit,France,6344.0,,,,,hugo.petit.113@mail.com
+CRM0093,Hugo Richard,Cameroon,2025-04-03,SUP-0093,Hugo Richard,Cameroon,1.0,,,,,,,,,hugo.richard.93@demo.org
+CRM0073,Hugo Robert,Germany,2025-03-14,SUP-0073,Hugo Robert,Germany,7.0,ACC0073,Hugo Robert,Germany,864.74,LOY0073,Hugo Robert,Germany,2025-03-14,hugo.robert.73@example.com
+CRM0041,Jean Bernard,Canada,2025-02-10,SUP-0041,Jean Bernard,Canada,10.0,ACC0041,Jean Bernard,Canada,5981.85,LOY0041,Jean Bernard,Canada,2025-02-10,jean.bernard.41@mail.com
+CRM0001,Jean Dupont,France,2025-01-01,,,,,,,,,LOY0001,Jean Dupont,France,2025-01-01,jean.dupont.1@example.com
+CRM0021,Jean Martin,Italy,2025-01-21,SUP-0021,Jean Martin,Italy,5.0,ACC0021,Jean Martin,Italy,3242.22,LOY0021,Jean Martin,Italy,2025-01-21,jean.martin.21@demo.org
+CRM0101,Jean Petit,Germany,2025-04-11,,,,,ACC0101,Jean Petit,Germany,4700.74,,,,,jean.petit.101@mail.com
+CRM0081,Jean Richard,Spain,2025-03-22,SUP-0081,Jean Richard,Spain,9.0,ACC0081,Jean Richard,Spain,1961.11,,,,,jean.richard.81@demo.org
+CRM0061,Jean Robert,Belgium,2025-03-02,SUP-0061,Jean Robert,Belgium,4.0,ACC0061,Jean Robert,Belgium,8721.48,LOY0061,Jean Robert,Belgium,2025-03-02,jean.robert.61@example.com
+CRM0048,Julie Bernard,Canada,2025-02-17,,,,,ACC0048,Julie Bernard,Canada,6940.85,LOY0048,Julie Bernard,Canada,2025-02-17,julie.bernard.48@demo.org
+CRM0008,Julie Dupont,France,2025-01-08,SUP-0008,Dupont Julie,France,10.0,,,,,LOY0008,Julie Dupont,France,2025-01-08,julie.dupont.8@mail.com
+CRM0028,Julie Martin,Italy,2025-01-28,SUP-0028,Julie Martin,Italy,4.0,ACC0028,Julie Martin,Italy,4201.219999999999,LOY0028,Julie Martin,Italy,2025-01-28,julie.martin.28@example.com
+CRM0108,Julie Petit,Germany,2025-04-18,,,,,ACC0108,Julie Petit,Germany,5659.74,,,,,julie.petit.108@demo.org
+CRM0088,Julie Richard,Spain,2025-03-29,SUP-0088,Julie Richard,Spain,8.0,ACC0088,Julie Richard,Spain,2920.1099999999997,,,,,julie.richard.88@example.com
+CRM0068,Julie Robert,Belgium,2025-03-09,SUP-0068,Julie Robert,Belgium,3.0,ACC0068,Julie Robert,Belgium,9680.48,LOY0068,Julie Robert,Belgium,2025-03-09,julie.robert.68@mail.com
+CRM0059,Julien Bernard,Germany,2025-02-28,SUP-0059,Julien Bernard,Germany,9.0,ACC0059,Julien Bernard,Germany,8446.74,LOY0059,Julien Bernard,Germany,2025-02-28,julien.bernard.59@mail.com
+CRM0019,Julien Dupont,Belgium,2025-01-19,SUP-0019,Julien Dupont,Belgium,10.0,,,,,LOY0019,Julien Dupont,Belgium,2025-01-19,julien.dupont.19@example.com
+CRM0039,Julien Martin,Spain,2025-02-08,SUP-0039,Julien Martin,Spain,4.0,ACC0039,Julien Martin,Spain,5707.11,LOY0039,Julien Martin,Spain,2025-02-08,julien.martin.39@demo.org
+CRM0119,Julien Petit,Italy,2025-04-29,,,,,ACC0119,Julien Petit,Italy,7168.219999999999,,,,,julien.petit.119@mail.com
+CRM0099,Julien Richard,France,2025-04-09,SUP-0099,Richard Julien,France,8.0,ACC0099,Julien Richard,France,4426.0,,,,,julien.richard.99@demo.org
+CRM0079,Julien Robert,Cameroon,2025-03-20,SUP-0079,Julien Robert,Cameroon,3.0,ACC0079,Julien Robert,Cameroon,1686.37,LOY0079,Julien Robert,Cameroon,2025-03-20,julien.robert.79@example.com
+CRM0050,Laura Bernard,France,2025-02-19,SUP-0050,Bernard Laura,France,4.0,ACC0050,Laura Bernard,France,7213.0,LOY0050,Laura Bernard,France,2025-02-19,laura.bernard.50@mail.com
+CRM0010,Laura Dupont,Germany,2025-01-10,SUP-0010,Laura Dupont,Germany,5.0,,,,,LOY0010,Laura Dupont,Germany,2025-01-10,laura.dupont.10@example.com
+CRM0030,Laura Martin,Cameroon,2025-01-30,SUP-0030,Laura Martin,Cameroon,10.0,ACC0030,Laura Martin,Cameroon,4473.37,LOY0030,Laura Martin,Cameroon,2025-01-30,laura.martin.30@demo.org
+CRM0110,Laura Petit,Belgium,2025-04-20,,,,,ACC0110,Laura Petit,Belgium,5934.48,,,,,laura.petit.110@mail.com
+CRM0090,Laura Richard,Canada,2025-03-31,SUP-0090,Laura Richard,Canada,3.0,ACC0090,Laura Richard,Canada,3194.8500000000004,,,,,laura.richard.90@demo.org
+CRM0070,Laura Robert,Italy,2025-03-11,SUP-0070,Laura Robert,Italy,9.0,ACC0070,Laura Robert,Italy,9955.22,LOY0070,Laura Robert,Italy,2025-03-11,laura.robert.70@example.com
+CRM0055,Louis Bernard,Canada,2025-02-24,SUP-0055,Louis Bernard,Canada,8.0,ACC0055,Louis Bernard,Canada,7899.85,LOY0055,Louis Bernard,Canada,2025-02-24,louis.bernard.55@example.com
+CRM0015,Louis Dupont,France,2025-01-15,,,,,,,,,LOY0015,Louis Dupont,France,2025-01-15,louis.dupont.15@demo.org
+CRM0035,Louis Martin,Italy,2025-02-04,SUP-0035,Louis Martin,Italy,3.0,ACC0035,Louis Martin,Italy,5160.219999999999,LOY0035,Louis Martin,Italy,2025-02-04,louis.martin.35@mail.com
+CRM0115,Louis Petit,Germany,2025-04-25,,,,,ACC0115,Louis Petit,Germany,6618.74,,,,,louis.petit.115@example.com
+CRM0095,Louis Richard,Spain,2025-04-05,SUP-0095,Louis Richard,Spain,7.0,ACC0095,Louis Richard,Spain,3879.1099999999997,,,,,louis.richard.95@mail.com
+CRM0075,Louis Robert,Belgium,2025-03-16,SUP-0075,Louis Robert,Belgium,2.0,ACC0075,Louis Robert,Belgium,1139.48,LOY0075,Louis Robert,Belgium,2025-03-16,louis.robert.75@demo.org
+CRM0045,Lucas Bernard,Germany,2025-02-14,,,,,ACC0045,Lucas Bernard,Germany,6528.74,LOY0045,Lucas Bernard,Germany,2025-02-14,lucas.bernard.45@demo.org
+CRM0005,Lucas Dupont,Belgium,2025-01-05,SUP-0005,Lucas Dupont,Belgium,1.0,,,,,LOY0005,Lucas Dupont,Belgium,2025-01-05,lucas.dupont.5@mail.com
+CRM0025,Lucas Martin,Spain,2025-01-25,SUP-0025,Lucas Martin,Spain,6.0,ACC0025,Lucas Martin,Spain,3789.11,LOY0025,Lucas Martin,Spain,2025-01-25,lucas.martin.25@example.com
+CRM0105,Lucas Petit,Italy,2025-04-15,,,,,ACC0105,Lucas Petit,Italy,5250.22,,,,,lucas.petit.105@demo.org
+CRM0085,Lucas Richard,France,2025-03-26,SUP-0085,Richard Lucas,France,10.0,ACC0085,Lucas Richard,France,2508.0,,,,,lucas.richard.85@example.com
+CRM0065,Lucas Robert,Cameroon,2025-03-06,SUP-0065,Lucas Robert,Cameroon,5.0,ACC0065,Lucas Robert,Cameroon,9268.37,LOY0065,Lucas Robert,Cameroon,2025-03-06,lucas.robert.65@mail.com
+CRM0058,Manon Bernard,Cameroon,2025-02-27,SUP-0058,Manon Bernard,Cameroon,6.0,ACC0058,Manon Bernard,Cameroon,8309.369999999999,LOY0058,Manon Bernard,Cameroon,2025-02-27,manon.bernard.58@example.com
+CRM0018,Manon Dupont,Spain,2025-01-18,SUP-0018,Manon Dupont,Spain,7.0,,,,,LOY0018,Manon Dupont,Spain,2025-01-18,manon.dupont.18@demo.org
+CRM0038,Manon Martin,Germany,2025-02-07,SUP-0038,Manon Martin,Germany,1.0,ACC0038,Manon Martin,Germany,5569.74,LOY0038,Manon Martin,Germany,2025-02-07,manon.martin.38@mail.com
+CRM0118,Manon Petit,Canada,2025-04-28,,,,,ACC0118,Manon Petit,Canada,7030.85,,,,,manon.petit.118@example.com
+CRM0098,Manon Richard,Italy,2025-04-08,SUP-0098,Manon Richard,Italy,5.0,ACC0098,Manon Richard,Italy,4291.22,,,,,manon.richard.98@mail.com
+CRM0078,Manon Robert,France,2025-03-19,,,,,ACC0078,Manon Robert,France,1549.0,LOY0078,Manon Robert,France,2025-03-19,manon.robert.78@demo.org
+CRM0042,Marie Bernard,Italy,2025-02-11,SUP-0042,Marie Bernard,Italy,2.0,ACC0042,Marie Bernard,Italy,6119.22,LOY0042,Marie Bernard,Italy,2025-02-11,marie.bernard.42@demo.org
+CRM0002,Marie Dupont,Cameroon,2025-01-02,SUP-0002,Marie Dupont,Cameroon,3.0,,,,,LOY0002,Marie Dupont,Cameroon,2025-01-02,marie.dupont.2@mail.com
+CRM0022,Marie Martin,France,2025-01-22,SUP-0022,Martin Marie,France,8.0,ACC0022,Marie Martin,France,3377.0,LOY0022,Marie Martin,France,2025-01-22,marie.martin.22@example.com
+CRM0102,Marie Petit,Spain,2025-04-12,,,,,ACC0102,Marie Petit,Spain,4838.110000000001,,,,,marie.petit.102@demo.org
+CRM0082,Marie Richard,Belgium,2025-03-23,SUP-0082,Marie Richard,Belgium,1.0,ACC0082,Marie Richard,Belgium,2098.48,,,,,marie.richard.82@example.com
+CRM0062,Marie Robert,Canada,2025-03-03,SUP-0062,Marie Robert,Canada,7.0,,,,,LOY0062,Marie Robert,Canada,2025-03-03,marie.robert.62@mail.com
+CRM0049,Nicolas Bernard,Italy,2025-02-18,SUP-0049,Nicolas Bernard,Italy,1.0,ACC0049,Nicolas Bernard,Italy,7078.22,LOY0049,Nicolas Bernard,Italy,2025-02-18,nicolas.bernard.49@example.com
+CRM0009,Nicolas Dupont,Cameroon,2025-01-09,SUP-0009,Nicolas Dupont,Cameroon,2.0,,,,,LOY0009,Nicolas Dupont,Cameroon,2025-01-09,nicolas.dupont.9@demo.org
+CRM0029,Nicolas Martin,France,2025-01-29,SUP-0029,Martin Nicolas,France,7.0,,,,,LOY0029,Nicolas Martin,France,2025-01-29,nicolas.martin.29@mail.com
+CRM0109,Nicolas Petit,Spain,2025-04-19,,,,,ACC0109,Nicolas Petit,Spain,5797.11,,,,,nicolas.petit.109@example.com
+CRM0089,Nicolas Richard,Belgium,2025-03-30,,,,,ACC0089,Nicolas Richard,Belgium,3057.48,,,,,nicolas.richard.89@mail.com
+CRM0069,Nicolas Robert,Canada,2025-03-10,SUP-0069,Nicolas Robert,Canada,6.0,ACC0069,Nicolas Robert,Canada,9817.85,LOY0069,Nicolas Robert,Canada,2025-03-10,nicolas.robert.69@demo.org
+CRM0043,Paul Bernard,France,2025-02-12,SUP-0043,Bernard Paul,France,5.0,ACC0043,Paul Bernard,France,6254.0,LOY0043,Paul Bernard,France,2025-02-12,paul.bernard.43@example.com
+CRM0003,Paul Dupont,Germany,2025-01-03,SUP-0003,Paul Dupont,Germany,6.0,,,,,LOY0003,Paul Dupont,Germany,2025-01-03,paul.dupont.3@demo.org
+CRM0023,Paul Martin,Cameroon,2025-01-23,,,,,ACC0023,Paul Martin,Cameroon,3514.37,LOY0023,Paul Martin,Cameroon,2025-01-23,paul.martin.23@mail.com
+CRM0103,Paul Petit,Belgium,2025-04-13,,,,,ACC0103,Paul Petit,Belgium,4975.48,,,,,paul.petit.103@example.com
+CRM0083,Paul Richard,Canada,2025-03-24,SUP-0083,Paul Richard,Canada,4.0,ACC0083,Paul Richard,Canada,2235.85,,,,,paul.richard.83@mail.com
+CRM0063,Paul Robert,Italy,2025-03-04,SUP-0063,Paul Robert,Italy,10.0,ACC0063,Paul Robert,Italy,8996.22,LOY0063,Paul Robert,Italy,2025-03-04,paul.robert.63@demo.org
+CRM0051,Pierre Bernard,Cameroon,2025-02-20,SUP-0051,Pierre Bernard,Cameroon,7.0,ACC0051,Pierre Bernard,Cameroon,7350.37,LOY0051,Pierre Bernard,Cameroon,2025-02-20,pierre.bernard.51@demo.org
+CRM0011,Pierre Dupont,Spain,2025-01-11,SUP-0011,Pierre Dupont,Spain,8.0,,,,,LOY0011,Pierre Dupont,Spain,2025-01-11,pierre.dupont.11@mail.com
+CRM0031,Pierre Martin,Germany,2025-01-31,SUP-0031,Pierre Martin,Germany,2.0,ACC0031,Pierre Martin,Germany,4610.74,LOY0031,Pierre Martin,Germany,2025-01-31,pierre.martin.31@example.com
+CRM0111,Pierre Petit,Canada,2025-04-21,,,,,ACC0111,Pierre Petit,Canada,6071.85,,,,,pierre.petit.111@demo.org
+CRM0091,Pierre Richard,Italy,2025-04-01,SUP-0091,Pierre Richard,Italy,6.0,ACC0091,Pierre Richard,Italy,3332.2200000000003,,,,,pierre.richard.91@example.com
+CRM0071,Pierre Robert,France,2025-03-12,SUP-0071,Robert Pierre,France,1.0,ACC0071,Pierre Robert,France,590.0,LOY0071,Pierre Robert,France,2025-03-12,pierre.robert.71@mail.com
+CRM0056,Sarah Bernard,Italy,2025-02-25,,,,,ACC0056,Sarah Bernard,Italy,8037.219999999999,LOY0056,Sarah Bernard,Italy,2025-02-25,sarah.bernard.56@mail.com
+CRM0016,Sarah Dupont,Cameroon,2025-01-16,SUP-0016,Sarah Dupont,Cameroon,1.0,,,,,LOY0016,Sarah Dupont,Cameroon,2025-01-16,sarah.dupont.16@example.com
+CRM0036,Sarah Martin,France,2025-02-05,SUP-0036,Martin Sarah,France,6.0,ACC0036,Sarah Martin,France,5295.0,LOY0036,Sarah Martin,France,2025-02-05,sarah.martin.36@demo.org
+CRM0116,Sarah Petit,Spain,2025-04-26,,,,,ACC0116,Sarah Petit,Spain,6756.11,,,,,sarah.petit.116@mail.com
+CRM0096,Sarah Richard,Belgium,2025-04-06,SUP-0096,Sarah Richard,Belgium,10.0,ACC0096,Sarah Richard,Belgium,4016.48,,,,,sarah.richard.96@demo.org
+CRM0076,Sarah Robert,Canada,2025-03-17,SUP-0076,Sarah Robert,Canada,5.0,ACC0076,Sarah Robert,Canada,1276.85,LOY0076,Sarah Robert,Canada,2025-03-17,sarah.robert.76@example.com
+CRM0044,Sophie Bernard,Cameroon,2025-02-13,SUP-0044,Sophie Bernard,Cameroon,8.0,ACC0044,Sophie Bernard,Cameroon,6391.37,LOY0044,Sophie Bernard,Cameroon,2025-02-13,sophie.bernard.44@mail.com
+CRM0004,Sophie Dupont,Spain,2025-01-04,SUP-0004,Sophie Dupont,Spain,9.0,,,,,LOY0004,Sophie Dupont,Spain,2025-01-04,sophie.dupont.4@example.com
+CRM0024,Sophie Martin,Germany,2025-01-24,SUP-0024,Sophie Martin,Germany,3.0,ACC0024,Sophie Martin,Germany,3651.74,LOY0024,Sophie Martin,Germany,2025-01-24,sophie.martin.24@demo.org
+CRM0104,Sophie Petit,Canada,2025-04-14,,,,,ACC0104,Sophie Petit,Canada,5112.85,,,,,sophie.petit.104@mail.com
+CRM0084,Sophie Richard,Italy,2025-03-25,,,,,ACC0084,Sophie Richard,Italy,2373.22,,,,,sophie.richard.84@demo.org
+CRM0064,Sophie Robert,France,2025-03-05,SUP-0064,Robert Sophie,France,2.0,ACC0064,Sophie Robert,France,9131.0,LOY0064,Sophie Robert,France,2025-03-05,sophie.robert.64@example.com
+CRM0047,Thomas Bernard,Belgium,2025-02-16,SUP-0047,Thomas Bernard,Belgium,6.0,ACC0047,Thomas Bernard,Belgium,6803.48,LOY0047,Thomas Bernard,Belgium,2025-02-16,thomas.bernard.47@mail.com
+CRM0007,Thomas Dupont,Italy,2025-01-07,SUP-0007,Thomas Dupont,Italy,7.0,,,,,LOY0007,Thomas Dupont,Italy,2025-01-07,thomas.dupont.7@example.com
+CRM0027,Thomas Martin,Canada,2025-01-27,SUP-0027,Thomas Martin,Canada,1.0,ACC0027,Thomas Martin,Canada,4063.8499999999995,LOY0027,Thomas Martin,Canada,2025-01-27,thomas.martin.27@demo.org
+CRM0107,Thomas Petit,Cameroon,2025-04-17,,,,,ACC0107,Thomas Petit,Cameroon,5522.37,,,,,thomas.petit.107@mail.com
+CRM0087,Thomas Richard,Germany,2025-03-28,SUP-0087,Thomas Richard,Germany,5.0,ACC0087,Thomas Richard,Germany,2782.7400000000002,,,,,thomas.richard.87@demo.org
+CRM0067,Thomas Robert,Spain,2025-03-08,,,,,ACC0067,Thomas Robert,Spain,9543.11,LOY0067,Thomas Robert,Spain,2025-03-08,thomas.robert.67@example.com

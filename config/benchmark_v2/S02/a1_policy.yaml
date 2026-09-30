@@ -1,0 +1,8 @@
+architecture: A1
+scenario: S02
+additional_business_knowledge: false
+expected_handling:
+  finance.gross_amount: numeric_measure
+  sales.turnover_value: numeric_measure
+semantic_equivalence_available: false
+reason: A1 reconnaît le type numérique, mais ne connaît ni le concept transactionnel ni la granularité métier.

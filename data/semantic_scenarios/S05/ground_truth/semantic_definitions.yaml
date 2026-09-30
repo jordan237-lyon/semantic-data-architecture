@@ -1,0 +1,15 @@
+scenario: S05
+source: mixed_events.customer_id
+declared_name_suggests: Customer.identifier
+value_patterns:
+  ticket_id:
+    prefix: TKT-
+    share: 0.7
+    target: SupportTicket.identifier
+  customer_id:
+    prefix: CRM
+    share: 0.3
+    target: Customer.identifier
+single_mapping_valid: false
+required_remediation: Séparer ou typer les valeurs avant le mapping.
+expected_a3_decision: review

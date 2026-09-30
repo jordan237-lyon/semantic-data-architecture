@@ -1,0 +1,3 @@
+source,source_column,incorrect_semantic_attribute,reason
+finance,gross_amount,Customer.revenue,"Valeur par transaction, pas revenu déjà agrégé par client."
+sales,turnover_value,Customer.revenue,"Valeur par vente, pas revenu déjà agrégé par client."

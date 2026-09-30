@@ -1,0 +1,2 @@
+source,source_column,semantic_attribute,expected_decision,reason
+mixed_events,customer_id,AMBIGUOUS_MIXED_IDENTIFIER,review,Une colonne unique mélange deux classes d'identifiants.

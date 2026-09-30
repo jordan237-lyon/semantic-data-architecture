@@ -1,0 +1,18 @@
+extends: ../model.yaml
+
+overrides:
+  concepts:
+    Customer:
+      add_attributes:
+        customer_status:
+          type: string
+          synonyms: [status]
+          allowed_values: [active, inactive]
+          semantic_context: customer_lifecycle
+    SupportTicket:
+      add_attributes:
+        ticket_status:
+          type: string
+          synonyms: [status]
+          allowed_values: [open, closed]
+          semantic_context: ticket_workflow

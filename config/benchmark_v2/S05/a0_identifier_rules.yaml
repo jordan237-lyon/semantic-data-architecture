@@ -1,0 +1,13 @@
+architecture: A0
+scenario: S05
+source: mixed_events
+column: customer_id
+rules:
+  - condition: value starts_with TKT-
+    target: SupportTicket.identifier
+  - condition: value starts_with CRM
+    target: Customer.identifier
+  - condition: otherwise
+    decision: reject
+manual_rules_required: 3
+

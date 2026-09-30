@@ -1,0 +1,3 @@
+phase,semantic_attribute,valid_to
+before,Customer.recently_active_90d,2025-06-30
+after,Customer.paying_contract_active,

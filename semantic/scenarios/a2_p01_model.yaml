@@ -1,0 +1,8 @@
+extends: ../a2_model.yaml
+
+# Adaptation déclarative mesurée pour P01 : une seule entrée de mapping renommée.
+overrides:
+  sources:
+    support:
+      rename_mappings:
+        mail: customer_email_address

@@ -1,0 +1,19 @@
+{
+  "schema_quality": {
+    "expected_mappings": 2,
+    "accepted_mappings": 0,
+    "accepted_correct": 0,
+    "accepted_incorrect": 0,
+    "review_mappings": 2,
+    "rejected_mappings": 0,
+    "candidate_accuracy": 1.0,
+    "coverage": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "entity_quality": null,
+  "pipeline_status": "schema_review_required",
+  "human_reviews_required": 2,
+  "execution_time_seconds": 0.053014
+}

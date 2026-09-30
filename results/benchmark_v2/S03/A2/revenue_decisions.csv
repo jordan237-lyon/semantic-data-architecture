@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,score_margin,reason
+revenue_gross,gross_revenue,RevenueSnapshot.gross_revenue,accepted,declared,,Mapping YAML prédéfini avec définition métier distincte
+revenue_net,net_revenue,RevenueSnapshot.net_revenue,accepted,declared,,Mapping YAML prédéfini avec définition métier distincte

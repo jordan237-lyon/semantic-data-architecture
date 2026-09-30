@@ -1,0 +1,8 @@
+architecture: A1
+scenario: S03
+additional_business_knowledge: false
+expected_handling:
+  revenue_gross.gross_revenue: numeric_measure
+  revenue_net.net_revenue: numeric_measure
+semantic_distinction_available: false
+reason: Les types et distributions ne décrivent pas le traitement comptable des taxes et remboursements.

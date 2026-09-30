@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="610" viewBox="0 0 950 610" role="img" aria-labelledby="title desc">
+<title id="title">Pourquoi le mapping demande une validation</title>
+<desc id="desc">Décomposition des scores et comparaison de la marge avec le seuil.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#667085}.heading{font-size:18px;font-weight:700}.label{font-size:13px;font-weight:600}.small{font-size:12px;fill:#667085}.value{font-size:14px;font-weight:700}.big{font-size:30px;font-weight:700}</style>
+<text x="475" y="38" text-anchor="middle" class="title">Pourquoi le mapping demande une validation</text>
+<text x="475" y="65" text-anchor="middle" class="subtitle">customer_email_address → Customer.email</text>
+<line x1="210.0" y1="100" x2="210.0" y2="400" stroke="#d8dee9"/>
+<text x="210.0" y="430" text-anchor="middle" class="small">0.0</text>
+<line x1="334.0" y1="100" x2="334.0" y2="400" stroke="#d8dee9"/>
+<text x="334.0" y="430" text-anchor="middle" class="small">0.2</text>
+<line x1="458.0" y1="100" x2="458.0" y2="400" stroke="#d8dee9"/>
+<text x="458.0" y="430" text-anchor="middle" class="small">0.4</text>
+<line x1="582.0" y1="100" x2="582.0" y2="400" stroke="#d8dee9"/>
+<text x="582.0" y="430" text-anchor="middle" class="small">0.6</text>
+<line x1="706.0" y1="100" x2="706.0" y2="400" stroke="#d8dee9"/>
+<text x="706.0" y="430" text-anchor="middle" class="small">0.8</text>
+<line x1="830.0" y1="100" x2="830.0" y2="400" stroke="#d8dee9"/>
+<text x="830.0" y="430" text-anchor="middle" class="small">1.0</text>
+<text x="185" y="125" text-anchor="end" class="heading">Nom</text>
+<rect x="210" y="106" width="460.6" height="28" fill="#64748b"/>
+<text x="682.6" y="125" class="value">0.743</text>
+<text x="185" y="195" text-anchor="end" class="heading">Type</text>
+<rect x="210" y="176" width="620.0" height="28" fill="#2563eb"/>
+<text x="842.0" y="195" class="value">1.000</text>
+<text x="185" y="265" text-anchor="end" class="heading">Valeurs</text>
+<rect x="210" y="246" width="601.4" height="28" fill="#16a34a"/>
+<text x="823.4" y="265" class="value">0.970</text>
+<text x="185" y="335" text-anchor="end" class="heading">Total</text>
+<rect x="210" y="316" width="534.7" height="28" fill="#f59e0b"/>
+<text x="756.7" y="335" class="value">0.862</text>
+<text x="475" y="485" text-anchor="middle" class="heading">Le score est suffisant, mais la marge impose une validation</text>
+<text x="300" y="530" text-anchor="middle" class="big">0.862</text>
+<text x="300" y="555" text-anchor="middle" class="small">score total ≥ 0,85</text>
+<text x="650" y="530" text-anchor="middle" class="big" fill="#f59e0b">0.039</text>
+<text x="650" y="555" text-anchor="middle" class="small">marge &lt; 0,10</text>
+<text x="475" y="595" text-anchor="middle" class="label">Second candidat : SupportTicket.customer_reference (0.824) · validation enregistrée</text>
+</svg>

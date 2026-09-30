@@ -1,0 +1,27 @@
+campaign: R01
+status: frozen
+volume: 100
+noise_rate: 0.05
+seeds:
+  calibration: [11]
+  test: [22, 33]
+scenarios:
+  S01:
+    intensities:
+      I0: {vocabulary_overlap: 0.0}
+      I1: {vocabulary_overlap: 0.5}
+      I2: {vocabulary_overlap: 1.0}
+  S04:
+    intensities:
+      I0: {drift_points: 5}
+      I1: {drift_points: 15}
+      I2: {drift_points: 40}
+  S05:
+    intensities:
+      I0: {ticket_share: 0.10}
+      I1: {ticket_share: 0.50}
+      I2: {ticket_share: 0.90}
+architectures: [A0, A1, A2, A3]
+expected_dataset_count: 27
+expected_run_count: 108
+

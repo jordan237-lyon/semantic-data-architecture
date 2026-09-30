@@ -1,0 +1,82 @@
+{
+  "scenario": "S03",
+  "dataset_checks": {
+    "gross_rows": 200,
+    "net_rows": 200,
+    "distinct_customers": 100,
+    "distinct_periods": 2,
+    "grain": "customer_month",
+    "all_net_below_gross": true,
+    "gross_net_correlation": 0.997861
+  },
+  "architectures": {
+    "A0": {
+      "semantic_quality": {
+        "expected_mappings": 2,
+        "accepted_correct": 2,
+        "accepted_incorrect": 0,
+        "gross_net_confusions": 0,
+        "review_mappings": 0,
+        "candidate_accuracy": 1.0,
+        "coverage": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "manual_semantic_rules": 2,
+      "grain_handling": "manual_rule_required",
+      "execution_time_seconds": 0.002574
+    },
+    "A1": {
+      "semantic_quality": {
+        "expected_mappings": 2,
+        "accepted_correct": 0,
+        "accepted_incorrect": 0,
+        "gross_net_confusions": 0,
+        "review_mappings": 2,
+        "candidate_accuracy": 0.0,
+        "coverage": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "human_reviews_required": 2,
+      "grain_handling": "technical_profile_only",
+      "execution_time_seconds": 0.000189
+    },
+    "A2": {
+      "semantic_quality": {
+        "expected_mappings": 2,
+        "accepted_correct": 2,
+        "accepted_incorrect": 0,
+        "gross_net_confusions": 0,
+        "review_mappings": 0,
+        "candidate_accuracy": 1.0,
+        "coverage": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "declarative_semantic_mappings": 2,
+      "grain_handling": "declared_customer_month",
+      "execution_time_seconds": 0.016145
+    },
+    "A3": {
+      "semantic_quality": {
+        "expected_mappings": 2,
+        "accepted_correct": 2,
+        "accepted_incorrect": 0,
+        "gross_net_confusions": 0,
+        "review_mappings": 0,
+        "candidate_accuracy": 1.0,
+        "coverage": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "human_reviews_required": 0,
+      "grain_handling": "semantic_customer_month",
+      "execution_time_seconds": 0.040451
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "scope": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05"
+  ],
+  "normalization": {
+    "S01-S03": "F1 des mappings acceptés",
+    "S04": "1 si la dérive est traitée sans acceptation silencieuse, sinon 0",
+    "S05": "F1 ligne par ligne, ou 1 pour une revue sûre empêchant un mapping unique invalide"
+  },
+  "architectures": [
+    {
+      "architecture": "A0",
+      "initial_mean_outcome": 1.0,
+      "final_mean_outcome": 1.0,
+      "initial_safe_scenarios": 5,
+      "final_safe_scenarios": 5,
+      "initial_human_reviews": 0,
+      "silent_wrong_acceptances": 0,
+      "post_detection_adaptation_actions": 0
+    },
+    {
+      "architecture": "A1",
+      "initial_mean_outcome": 0.26,
+      "final_mean_outcome": 0.26,
+      "initial_safe_scenarios": 4,
+      "final_safe_scenarios": 4,
+      "initial_human_reviews": 7,
+      "silent_wrong_acceptances": 70,
+      "post_detection_adaptation_actions": 0
+    },
+    {
+      "architecture": "A2",
+      "initial_mean_outcome": 0.66,
+      "final_mean_outcome": 1.0,
+      "initial_safe_scenarios": 3,
+      "final_safe_scenarios": 5,
+      "initial_human_reviews": 0,
+      "silent_wrong_acceptances": 71,
+      "post_detection_adaptation_actions": 4
+    },
+    {
+      "architecture": "A3",
+      "initial_mean_outcome": 0.8,
+      "final_mean_outcome": 0.8,
+      "initial_safe_scenarios": 5,
+      "final_safe_scenarios": 5,
+      "initial_human_reviews": 4,
+      "silent_wrong_acceptances": 0,
+      "post_detection_adaptation_actions": 0
+    }
+  ]
+}

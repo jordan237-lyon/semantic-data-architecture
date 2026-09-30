@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,reason
+crm,status,Customer.customer_status,accepted,declared,Mapping YAML prédéfini
+support,status,SupportTicket.ticket_status,accepted,declared,Mapping YAML prédéfini

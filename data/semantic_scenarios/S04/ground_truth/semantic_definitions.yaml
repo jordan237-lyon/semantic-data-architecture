@@ -1,0 +1,17 @@
+scenario: S04
+source: customer_activity.active
+unchanged_properties:
+  column_name: active
+  type: boolean
+break_date: '2025-07-01'
+versions:
+  activity_v1:
+    valid_to: '2025-06-30'
+    attribute: Customer.recently_active_90d
+    definition: Connexion observée au cours des 90 derniers jours.
+  contract_v2:
+    valid_from: '2025-07-01'
+    attribute: Customer.paying_contract_active
+    definition: Contrat payant en cours à la date d'observation.
+expected_a3_decision: review
+silent_acceptance_allowed: false

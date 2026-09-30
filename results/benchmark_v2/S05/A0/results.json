@@ -1,0 +1,16 @@
+{
+  "value_quality": {
+    "rows": 100,
+    "correct_rows": 100,
+    "incorrect_rows": 0,
+    "unmapped_rows": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "safe_handling": true,
+  "silent_wrong_acceptances": 0,
+  "human_reviews_required": 0,
+  "adaptation_actions": 3,
+  "execution_time_seconds": 0.001846
+}

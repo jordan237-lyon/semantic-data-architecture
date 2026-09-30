@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,score_margin,reason
+revenue_gross,gross_revenue,RevenueSnapshot.gross_revenue,accepted,manual,,Règle ETL manuelle distinguant brut et net
+revenue_net,net_revenue,RevenueSnapshot.net_revenue,accepted,manual,,Règle ETL manuelle distinguant brut et net

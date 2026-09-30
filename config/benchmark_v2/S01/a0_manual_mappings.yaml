@@ -1,0 +1,11 @@
+architecture: A0
+scenario: S01
+rules:
+  - source: crm
+    source_column: status
+    target: Customer.customer_status
+    implementation: manual
+  - source: support
+    source_column: status
+    target: SupportTicket.ticket_status
+    implementation: manual

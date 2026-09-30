@@ -1,0 +1,15 @@
+scenario: S02
+equivalent_columns:
+- finance.gross_amount
+- sales.turnover_value
+target:
+  attribute: Transaction.amount
+  definition: Montant brut porté par une transaction individuelle.
+  type: decimal
+  unit: currency_unit
+  grain: transaction
+confusable_target:
+  attribute: Customer.revenue
+  definition: Somme des montants transactionnels au niveau client.
+  grain: customer
+expected_a3_decision: accepted

@@ -1,0 +1,5 @@
+source,source_column,incorrect_semantic_attribute,reason
+revenue_gross,gross_revenue,RevenueSnapshot.net_revenue,Le brut inclut les taxes et remboursements non déduits.
+revenue_net,net_revenue,RevenueSnapshot.gross_revenue,Le net est calculé après taxes et remboursements.
+revenue_gross,gross_revenue,Customer.revenue,La mesure est définie au grain client-mois.
+revenue_net,net_revenue,Customer.revenue,La mesure est définie au grain client-mois.

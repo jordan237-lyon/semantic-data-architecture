@@ -1,0 +1,17 @@
+{
+  "scenario": "S03",
+  "title": "Définitions métier concurrentes",
+  "sources": {
+    "revenue_gross": 200,
+    "revenue_net": 200
+  },
+  "customers": 100,
+  "periods": [
+    "2025-05",
+    "2025-06"
+  ],
+  "currency": "EUR",
+  "gross_net_correlation": 0.997861,
+  "all_net_values_below_gross": true,
+  "architectures_executed": []
+}

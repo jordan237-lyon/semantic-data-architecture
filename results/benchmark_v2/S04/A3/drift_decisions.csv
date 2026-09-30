@@ -1,0 +1,2 @@
+phase,source_column,semantic_attribute,decision,confidence,reason
+drift,active,Customer.revenue,review,0.657895,Rupture temporelle et définitions concurrentes

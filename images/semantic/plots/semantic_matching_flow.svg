@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="360" viewBox="0 0 1250 360" role="img" aria-labelledby="title desc">
+<title id="title">Parcours du matching sémantique</title>
+<desc id="desc">Flux en six étapes allant des trois sources aux décisions acceptées, revues ou rejetées.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#667085}.heading{font-size:17px;font-weight:700}.label{font-size:13px;font-weight:600}.small{font-size:12px;fill:#667085}.value{font-size:13px;font-weight:700}.big{font-size:30px;font-weight:700}</style>
+<text x="625" y="38" text-anchor="middle" class="title">Parcours du matching sémantique</text>
+<text x="625" y="64" text-anchor="middle" class="subtitle">De la colonne brute à une décision explicable</text>
+<rect x="35" y="125" width="165" height="92" rx="5" fill="#dbeafe" stroke="#d8dee9"/>
+<text x="117.5" y="162" text-anchor="middle" class="heading">Sources</text>
+<text x="117.5" y="189" text-anchor="middle" class="small">CRM · Support · Finance</text>
+<line x1="207" y1="171.0" x2="231" y2="171.0" stroke="#2563eb" stroke-width="2"/>
+<path d="M 224 166.0 L 231 171.0 L 224 176.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<rect x="238" y="125" width="165" height="92" rx="5" fill="#dbeafe" stroke="#d8dee9"/>
+<text x="320.5" y="162" text-anchor="middle" class="heading">Profilage</text>
+<text x="320.5" y="189" text-anchor="middle" class="small">types · formats · nulls</text>
+<line x1="410" y1="171.0" x2="434" y2="171.0" stroke="#2563eb" stroke-width="2"/>
+<path d="M 427 166.0 L 434 171.0 L 427 176.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<rect x="441" y="125" width="165" height="92" rx="5" fill="#dbeafe" stroke="#d8dee9"/>
+<text x="523.5" y="162" text-anchor="middle" class="heading">Modèle YAML</text>
+<text x="523.5" y="189" text-anchor="middle" class="small">concepts · synonymes</text>
+<line x1="613" y1="171.0" x2="637" y2="171.0" stroke="#2563eb" stroke-width="2"/>
+<path d="M 630 166.0 L 637 171.0 L 630 176.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<rect x="644" y="125" width="165" height="92" rx="5" fill="#dbeafe" stroke="#d8dee9"/>
+<text x="726.5" y="162" text-anchor="middle" class="heading">Scoring</text>
+<text x="726.5" y="189" text-anchor="middle" class="small">50 % · 20 % · 30 %</text>
+<line x1="816" y1="171.0" x2="840" y2="171.0" stroke="#2563eb" stroke-width="2"/>
+<path d="M 833 166.0 L 840 171.0 L 833 176.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<rect x="847" y="125" width="165" height="92" rx="5" fill="#dbeafe" stroke="#d8dee9"/>
+<text x="929.5" y="162" text-anchor="middle" class="heading">Classement</text>
+<text x="929.5" y="189" text-anchor="middle" class="small">meilleur · second · marge</text>
+<line x1="1019" y1="171.0" x2="1043" y2="171.0" stroke="#2563eb" stroke-width="2"/>
+<path d="M 1036 166.0 L 1043 171.0 L 1036 176.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<rect x="1050" y="125" width="165" height="92" rx="5" fill="#dbeafe" stroke="#d8dee9"/>
+<text x="1132.5" y="162" text-anchor="middle" class="heading">Décision</text>
+<text x="1132.5" y="189" text-anchor="middle" class="small">accepté · revue · rejeté</text>
+<text x="625" y="280" text-anchor="middle" class="label">Sorties auditables : profil, candidats, composantes du score, marge et justification de la décision</text>
+<text x="625" y="312" text-anchor="middle" class="subtitle">Les seuils restent configurables dans semantic/model.yaml</text>
+</svg>

@@ -1,0 +1,42 @@
+extends: ../a2_model.yaml
+
+overrides:
+  canonical_model:
+    add_attributes:
+      revenue_period: {type: string, nullable: true}
+      revenue_currency: {type: string, nullable: true}
+      gross_revenue: {type: decimal, nullable: true}
+      net_revenue: {type: decimal, nullable: true}
+  add_sources:
+    revenue_gross:
+      entity_identifier: account_id
+      granularity: customer_month
+      mappings:
+        account_id: {target: customer_id}
+        customer_email: {target: email, transformations: [trim, lowercase]}
+        period: {target: revenue_period}
+        gross_revenue: {target: gross_revenue, transformations: [parse_decimal]}
+        currency: {target: revenue_currency}
+      aggregation:
+        group_by: account_id
+        rules:
+          email: first_non_null
+          revenue_period: first_non_null
+          revenue_currency: first_non_null
+          gross_revenue: sum
+    revenue_net:
+      entity_identifier: account_id
+      granularity: customer_month
+      mappings:
+        account_id: {target: customer_id}
+        customer_email: {target: email, transformations: [trim, lowercase]}
+        period: {target: revenue_period}
+        net_revenue: {target: net_revenue, transformations: [parse_decimal]}
+        currency: {target: revenue_currency}
+      aggregation:
+        group_by: account_id
+        rules:
+          email: first_non_null
+          revenue_period: first_non_null
+          revenue_currency: first_non_null
+          net_revenue: sum

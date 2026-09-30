@@ -1,0 +1,44 @@
+{
+  "architecture": "A1_technical_metadata",
+  "semantic_model_used": false,
+  "discovered_sources": [
+    "crm",
+    "finance",
+    "loyalty",
+    "support"
+  ],
+  "profiled_columns": 24,
+  "mapped_technical_roles": 17,
+  "review_columns": 7,
+  "output_rows": 126,
+  "entity_quality": {
+    "expected_pairs": 262,
+    "predicted_pairs": 251,
+    "true_positives": 251,
+    "false_positives": 0,
+    "false_negatives": 11,
+    "precision": 1.0,
+    "recall": 0.958015,
+    "f1_score": 0.978558
+  },
+  "execution_time_seconds": 0.037219,
+  "benchmark_repetitions": 5,
+  "execution_time_seconds_runs": [
+    0.03458,
+    0.036876,
+    0.03364,
+    0.03679,
+    0.037219
+  ],
+  "execution_time_seconds_median": 0.03679,
+  "crm_loyalty_quality": {
+    "expected_pairs": 80,
+    "predicted_pairs": 80,
+    "true_positives": 80,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  }
+}

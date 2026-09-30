@@ -1,0 +1,9 @@
+scenario,variant,before_adaptation,adaptation_operations,final_f1,additional_quality
+P00,nominal,success,0,0.978558,
+P01,column_rename,failure,1,0.978558,
+P02,country_format,business_quality_failure,7,0.978558,country_conformity=1.0
+P03,merged_name,failure,4,0.978558,
+P04,x1,success,0,0.978558,median_seconds=0.071825
+P04,x5,success,0,0.978558,median_seconds=0.215357
+P04,x10,success,0,0.978558,median_seconds=0.384406
+P05,new_source,failure,10,0.978558,crm_loyalty_f1=1.0

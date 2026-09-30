@@ -1,0 +1,11 @@
+extends: ../model.yaml
+
+overrides:
+  concepts:
+    Customer:
+      extend_synonyms:
+        identifier: [customer_id]
+    SupportTicket:
+      extend_synonyms:
+        identifier: [customer_id]
+

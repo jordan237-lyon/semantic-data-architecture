@@ -1,0 +1,58 @@
+{
+  "protocol": {
+    "warmup_runs_per_pipeline": 5,
+    "measured_runs_per_pipeline": 30,
+    "alternating_execution_order": true,
+    "memory_scope": "Python allocations measured by tracemalloc"
+  },
+  "performance": {
+    "baseline": {
+      "wall_time_seconds": {
+        "mean": 0.032033904,
+        "median": 0.031386479,
+        "min": 0.0299135,
+        "max": 0.044379042,
+        "standard_deviation": 0.002560229
+      },
+      "cpu_time_seconds": {
+        "mean": 0.031668967,
+        "median": 0.031292,
+        "min": 0.029825,
+        "max": 0.040398,
+        "standard_deviation": 0.001886264
+      },
+      "python_peak_memory_bytes": {
+        "mean": 514869.2,
+        "median": 517560.0,
+        "min": 507029,
+        "max": 524237,
+        "standard_deviation": 5557.130898824
+      }
+    },
+    "semantic": {
+      "wall_time_seconds": {
+        "mean": 0.166291836,
+        "median": 0.163417083,
+        "min": 0.1588275,
+        "max": 0.2038525,
+        "standard_deviation": 0.0092359
+      },
+      "cpu_time_seconds": {
+        "mean": 0.163237,
+        "median": 0.1623535,
+        "min": 0.15805,
+        "max": 0.17514,
+        "standard_deviation": 0.004692251
+      },
+      "python_peak_memory_bytes": {
+        "mean": 717843.866666667,
+        "median": 717784.0,
+        "min": 713469,
+        "max": 727393,
+        "standard_deviation": 3682.568168487
+      }
+    },
+    "semantic_to_baseline_wall_time_ratio": 5.206608,
+    "semantic_to_baseline_python_memory_ratio": 1.386861
+  }
+}

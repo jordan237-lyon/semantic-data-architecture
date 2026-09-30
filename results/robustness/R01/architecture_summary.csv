@@ -1,0 +1,5 @@
+adaptation_actions_total,architecture,configuration_actions_total,final_safe_rate,final_score_mean,human_reviews_total,initial_safe_rate,initial_score_mean,silent_wrong_acceptances_final_total,silent_wrong_acceptances_initial_total,test_runs
+12,A0,42,1.0,1.0,0,1.0,1.0,0,0,18
+0,A1,0,0.5555555555555556,0.3888888888888889,16,0.5555555555555556,0.3888888888888889,302,302,18
+24,A2,36,1.0,1.0,0,0.3333333333333333,0.5,0,306,18
+0,A3,0,1.0,0.7777777777777778,20,1.0,0.7777777777777778,0,0,18

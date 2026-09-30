@@ -1,0 +1,15 @@
+{
+  "scenario": "S04",
+  "title": "Dérive sémantique temporelle",
+  "source": "customer_activity",
+  "rows": 200,
+  "customers": 100,
+  "break_date": "2025-07-01",
+  "column_name_unchanged": true,
+  "column_type_unchanged": true,
+  "before_true_rate": 0.75,
+  "after_true_rate": 0.6,
+  "customer_level_disagreements": 45,
+  "expected_decision": "review",
+  "architectures_executed": []
+}

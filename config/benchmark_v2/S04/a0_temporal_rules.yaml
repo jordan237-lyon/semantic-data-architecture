@@ -1,0 +1,14 @@
+architecture: A0
+scenario: S04
+source: customer_activity
+column: active
+break_date: 2025-07-01
+rules:
+  - condition: snapshot_date < 2025-07-01
+    target: Customer.recently_active_90d
+    definition: Connexion observée au cours des 90 derniers jours.
+  - condition: snapshot_date >= 2025-07-01
+    target: Customer.paying_contract_active
+    definition: Contrat payant en cours à la date d'observation.
+manual_rules_required: 2
+

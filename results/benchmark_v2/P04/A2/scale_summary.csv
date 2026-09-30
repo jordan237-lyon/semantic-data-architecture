@@ -1,0 +1,4 @@
+scale,benchmark_repetitions,output_rows,precision,recall,f1_score,median_seconds,declarative_adaptations
+x1,5,126,1.0,0.958015,0.978558,0.071825,0
+x5,5,630,1.0,0.958015,0.978558,0.215357,0
+x10,5,1260,1.0,0.958015,0.978558,0.384406,0

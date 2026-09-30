@@ -1,0 +1,37 @@
+campaign: R01
+scenario: S05
+intensity: I1
+seed: 11
+status: frozen
+
+A0:
+  mode: manual
+  rules:
+    - {prefix: "TKT-", target: SupportTicket.identifier}
+    - {prefix: "CRM", target: Customer.identifier}
+  otherwise: reject
+
+A1:
+  mode: technical_metadata
+  inferred_target_from_name: Customer.identifier
+  value_pattern_conflict_detection: false
+
+A2:
+  mode: declarative
+  before_adaptation:
+    target: Customer.identifier
+  after_adaptation:
+    operation: split_by_prefix
+    rules:
+      - {prefix: "TKT-", target: SupportTicket.identifier}
+      - {prefix: "CRM", target: Customer.identifier}
+    otherwise: reject
+  adaptation_actions: 3
+
+A3:
+  mode: adaptive_semantic
+  model: semantic/scenarios/a3_s05_model.yaml
+  minimum_dominant_share_for_single_mapping: 0.95
+  mixed_semantic_classes: review
+  unknown_pattern: reject
+

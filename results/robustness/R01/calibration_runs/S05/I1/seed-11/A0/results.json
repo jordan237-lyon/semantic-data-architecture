@@ -1,0 +1,21 @@
+{
+  "decision": "accepted_conditional_split",
+  "value_quality": {
+    "rows": 100,
+    "correct_rows": 100,
+    "incorrect_rows": 0,
+    "unmapped_rows": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "safe_handling": true,
+  "human_reviews_required": 0,
+  "silent_wrong_acceptances": 0,
+  "configuration_actions": 3,
+  "performance": {
+    "wall_time_seconds": 0.000328,
+    "cpu_time_seconds": 0.000333,
+    "peak_python_memory_mb": 0.015313
+  }
+}

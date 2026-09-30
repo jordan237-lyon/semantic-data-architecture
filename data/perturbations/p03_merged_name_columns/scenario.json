@@ -1,0 +1,16 @@
+{
+  "scenario": "p03_merged_name_columns",
+  "description": "Fusion structurelle de deux colonnes CRM en un nom complet.",
+  "change": {
+    "source": "crm",
+    "before": [
+      "first_name",
+      "last_name"
+    ],
+    "after": [
+      "customer_name"
+    ],
+    "column_count_delta": -1,
+    "values_modified": false
+  }
+}

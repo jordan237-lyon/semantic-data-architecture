@@ -1,0 +1,2 @@
+phase,source_column,semantic_attribute,decision,confidence,reason
+drift,active,,review,0.15,Variation de distribution sans définition métier disponible

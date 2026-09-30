@@ -1,0 +1,18 @@
+architecture: A3
+scenario: S04
+source: customer_activity
+semantic_model: semantic/scenarios/a3_s04_model.yaml
+temporal_context:
+  time_column: snapshot_date
+  break_date: 2025-07-01
+  competing_attributes:
+    - Customer.recently_active_90d
+    - Customer.paying_contract_active
+detection:
+  compare_windows: true
+  distribution_statistic: true_rate
+  absolute_change_threshold: 0.10
+decision_policy:
+  definition_change: review
+  ambiguous_temporal_mapping: review
+  silent_acceptance: forbidden

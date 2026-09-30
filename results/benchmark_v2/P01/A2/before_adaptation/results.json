@@ -1,0 +1,20 @@
+{
+  "architecture": "A2_declarative_semantic",
+  "scenario": "P01_renamed_column",
+  "phase": "before_adaptation",
+  "status": "failed_as_expected",
+  "automatic_matching": false,
+  "declared_source": "support",
+  "declared_column": "mail",
+  "observed_replacement": "customer_email_address",
+  "error_type": "DeclarativeTransformationError",
+  "error_message": "Source support : colonnes déclarées absentes : mail",
+  "output_generated": false,
+  "required_adaptation": {
+    "artifact": "semantic/a2_model.yaml",
+    "operation": "replace_source_mapping_key",
+    "from": "sources.support.mappings.mail",
+    "to": "sources.support.mappings.customer_email_address",
+    "python_change_required": false
+  }
+}

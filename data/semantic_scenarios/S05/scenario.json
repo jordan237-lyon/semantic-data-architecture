@@ -1,0 +1,12 @@
+{
+  "scenario": "S05",
+  "title": "Conflit entre nom, type et valeurs",
+  "source": "mixed_events",
+  "rows": 100,
+  "ambiguous_column": "customer_id",
+  "string_type_share": 1.0,
+  "ticket_identifier_share": 0.7,
+  "customer_identifier_share": 0.3,
+  "expected_decision": "review",
+  "architectures_executed": []
+}

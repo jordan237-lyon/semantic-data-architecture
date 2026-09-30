@@ -1,0 +1,7 @@
+metric,baseline,semantic,absolute_change
+precision,0.965385,1.0,0.034615
+recall,0.958015,0.958015,0.0
+f1_score,0.961686,0.978558,0.016872
+true_positives,251,251,0
+false_positives,9,0,-9
+false_negatives,11,11,0

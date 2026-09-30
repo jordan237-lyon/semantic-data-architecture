@@ -1,0 +1,434 @@
+{
+  "S01__I0__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I0__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I0__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I0__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I1__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I1__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I1__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I1__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I2__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I2__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I2__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S01__I2__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I0__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I0__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I0__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I0__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I1__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I1__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I1__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I1__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I2__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I2__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I2__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.0,
+      0.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S04__I2__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I0__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I0__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.9,
+      0.9
+    ],
+    "final_score_95_ci": [
+      0.9,
+      0.9
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I0__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.9,
+      0.9
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I0__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I1__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I1__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.5,
+      0.5
+    ],
+    "final_score_95_ci": [
+      0.5,
+      0.5
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I1__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.5,
+      0.5
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I1__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I2__A0": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I2__A1": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.1,
+      0.1
+    ],
+    "final_score_95_ci": [
+      0.1,
+      0.1
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I2__A2": {
+    "n": 2,
+    "initial_score_95_ci": [
+      0.1,
+      0.1
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  },
+  "S05__I2__A3": {
+    "n": 2,
+    "initial_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "final_score_95_ci": [
+      1.0,
+      1.0
+    ],
+    "warning": "Two test seeds: interval is diagnostic only."
+  }
+}

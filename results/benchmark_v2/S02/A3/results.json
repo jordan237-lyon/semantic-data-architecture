@@ -1,0 +1,16 @@
+{
+  "schema_quality": {
+    "expected_mappings": 2,
+    "accepted_correct": 2,
+    "accepted_incorrect": 0,
+    "accepted_as_customer_revenue": 0,
+    "review_mappings": 0,
+    "candidate_accuracy": 1.0,
+    "coverage": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "pipeline_status": "schema_analysis_only",
+  "execution_time_seconds": 0.056401
+}

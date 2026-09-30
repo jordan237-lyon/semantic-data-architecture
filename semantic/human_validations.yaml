@@ -1,0 +1,12 @@
+validations:
+  - source: crm
+    source_column: created_at
+    semantic_attribute: Customer.created_at
+    status: approved
+    reason: Une ligne CRM représente un client.
+
+  - source: support
+    source_column: created_at
+    semantic_attribute: SupportTicket.created_at
+    status: approved
+    reason: Une ligne support représente un ticket.

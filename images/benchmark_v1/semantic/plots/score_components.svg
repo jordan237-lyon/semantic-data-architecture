@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="1080" viewBox="0 0 1150 1080" role="img" aria-labelledby="title desc">
+<title id="title">Décomposition des scores par colonne</title>
+<desc id="desc">Matrice de dix-neuf colonnes montrant les scores de nom, type, valeurs, total et marge.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#667085}.heading{font-size:17px;font-weight:700}.label{font-size:13px;font-weight:600}.small{font-size:12px;fill:#667085}.value{font-size:13px;font-weight:700}.big{font-size:30px;font-weight:700}</style>
+<text x="575" y="38" text-anchor="middle" class="title">Décomposition des scores par colonne</text>
+<text x="575" y="64" text-anchor="middle" class="subtitle">La marge révèle l’ambiguïté que le score total ne montre pas</text>
+<text x="362.5" y="98" text-anchor="middle" class="label">Nom</text>
+<text x="487.5" y="98" text-anchor="middle" class="label">Type</text>
+<text x="612.5" y="98" text-anchor="middle" class="label">Valeurs</text>
+<text x="737.5" y="98" text-anchor="middle" class="label">Total</text>
+<text x="862.5" y="98" text-anchor="middle" class="label">Marge</text>
+<text x="270" y="146" text-anchor="end" class="label">crm.client_id</text>
+<rect x="300" y="118" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="144" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="118" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="144" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="118" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="144" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="118" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="144" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="118" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="144" text-anchor="middle" class="value">0.176</text>
+<circle cx="953" cy="138" r="7" fill="#16a34a"/>
+<text x="967" y="143" class="small">accepted</text>
+<text x="270" y="191" text-anchor="end" class="label">crm.first_name</text>
+<rect x="300" y="163" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="189" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="163" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="189" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="163" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="189" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="163" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="189" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="163" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="189" text-anchor="middle" class="value">0.227</text>
+<circle cx="953" cy="183" r="7" fill="#16a34a"/>
+<text x="967" y="188" class="small">accepted</text>
+<text x="270" y="236" text-anchor="end" class="label">crm.last_name</text>
+<rect x="300" y="208" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="234" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="208" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="234" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="208" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="234" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="208" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="234" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="208" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="234" text-anchor="middle" class="value">0.214</text>
+<circle cx="953" cy="228" r="7" fill="#16a34a"/>
+<text x="967" y="233" class="small">accepted</text>
+<text x="270" y="281" text-anchor="end" class="label">crm.email</text>
+<rect x="300" y="253" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="279" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="253" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="279" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="253" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="279" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="253" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="279" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="253" width="120" height="40" fill="#bfdbfe"/>
+<text x="860.0" y="279" text-anchor="middle" class="value">0.357</text>
+<circle cx="953" cy="273" r="7" fill="#16a34a"/>
+<text x="967" y="278" class="small">accepted</text>
+<text x="270" y="326" text-anchor="end" class="label">crm.country</text>
+<rect x="300" y="298" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="324" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="298" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="324" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="298" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="324" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="298" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="324" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="298" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="324" text-anchor="middle" class="value">0.215</text>
+<circle cx="953" cy="318" r="7" fill="#16a34a"/>
+<text x="967" y="323" class="small">accepted</text>
+<text x="270" y="371" text-anchor="end" class="label">crm.created_at</text>
+<rect x="300" y="343" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="369" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="343" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="369" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="343" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="369" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="343" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="369" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="343" width="120" height="40" fill="#eff6ff"/>
+<text x="860.0" y="369" text-anchor="middle" class="value">0.009</text>
+<circle cx="953" cy="363" r="7" fill="#f59e0b"/>
+<text x="967" y="368" class="small">review</text>
+<text x="270" y="416" text-anchor="end" class="label">support.ticket_id</text>
+<rect x="300" y="388" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="414" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="388" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="414" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="388" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="414" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="388" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="414" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="388" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="414" text-anchor="middle" class="value">0.176</text>
+<circle cx="953" cy="408" r="7" fill="#16a34a"/>
+<text x="967" y="413" class="small">accepted</text>
+<text x="270" y="461" text-anchor="end" class="label">support.customer_ref</text>
+<rect x="300" y="433" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="459" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="433" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="459" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="433" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="459" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="433" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="459" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="433" width="120" height="40" fill="#eff6ff"/>
+<text x="860.0" y="459" text-anchor="middle" class="value">0.109</text>
+<circle cx="953" cy="453" r="7" fill="#16a34a"/>
+<text x="967" y="458" class="small">accepted</text>
+<text x="270" y="506" text-anchor="end" class="label">support.full_name</text>
+<rect x="300" y="478" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="504" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="478" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="504" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="478" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="504" text-anchor="middle" class="value">0.970</text>
+<rect x="675" y="478" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="504" text-anchor="middle" class="value">0.991</text>
+<rect x="800" y="478" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="504" text-anchor="middle" class="value">0.214</text>
+<circle cx="953" cy="498" r="7" fill="#16a34a"/>
+<text x="967" y="503" class="small">accepted</text>
+<text x="270" y="551" text-anchor="end" class="label">support.mail</text>
+<rect x="300" y="523" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="549" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="523" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="549" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="523" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="549" text-anchor="middle" class="value">0.970</text>
+<rect x="675" y="523" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="549" text-anchor="middle" class="value">0.991</text>
+<rect x="800" y="523" width="120" height="40" fill="#bfdbfe"/>
+<text x="860.0" y="549" text-anchor="middle" class="value">0.357</text>
+<circle cx="953" cy="543" r="7" fill="#16a34a"/>
+<text x="967" y="548" class="small">accepted</text>
+<text x="270" y="596" text-anchor="end" class="label">support.country_name</text>
+<rect x="300" y="568" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="594" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="568" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="594" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="568" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="594" text-anchor="middle" class="value">0.970</text>
+<rect x="675" y="568" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="594" text-anchor="middle" class="value">0.991</text>
+<rect x="800" y="568" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="594" text-anchor="middle" class="value">0.180</text>
+<circle cx="953" cy="588" r="7" fill="#16a34a"/>
+<text x="967" y="593" class="small">accepted</text>
+<text x="270" y="641" text-anchor="end" class="label">support.created_at</text>
+<rect x="300" y="613" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="639" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="613" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="639" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="613" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="639" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="613" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="639" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="613" width="120" height="40" fill="#eff6ff"/>
+<text x="860.0" y="639" text-anchor="middle" class="value">0.009</text>
+<circle cx="953" cy="633" r="7" fill="#f59e0b"/>
+<text x="967" y="638" class="small">review</text>
+<text x="270" y="686" text-anchor="end" class="label">finance.transaction_id</text>
+<rect x="300" y="658" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="684" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="658" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="684" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="658" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="684" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="658" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="684" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="658" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="684" text-anchor="middle" class="value">0.259</text>
+<circle cx="953" cy="678" r="7" fill="#16a34a"/>
+<text x="967" y="683" class="small">accepted</text>
+<text x="270" y="731" text-anchor="end" class="label">finance.account_id</text>
+<rect x="300" y="703" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="729" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="703" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="729" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="703" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="729" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="703" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="729" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="703" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="729" text-anchor="middle" class="value">0.171</text>
+<circle cx="953" cy="723" r="7" fill="#16a34a"/>
+<text x="967" y="728" class="small">accepted</text>
+<text x="270" y="776" text-anchor="end" class="label">finance.customer_name</text>
+<rect x="300" y="748" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="774" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="748" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="774" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="748" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="774" text-anchor="middle" class="value">0.970</text>
+<rect x="675" y="748" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="774" text-anchor="middle" class="value">0.991</text>
+<rect x="800" y="748" width="120" height="40" fill="#eff6ff"/>
+<text x="860.0" y="774" text-anchor="middle" class="value">0.100</text>
+<circle cx="953" cy="768" r="7" fill="#16a34a"/>
+<text x="967" y="773" class="small">accepted</text>
+<text x="270" y="821" text-anchor="end" class="label">finance.contact_email</text>
+<rect x="300" y="793" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="819" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="793" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="819" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="793" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="819" text-anchor="middle" class="value">0.970</text>
+<rect x="675" y="793" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="819" text-anchor="middle" class="value">0.991</text>
+<rect x="800" y="793" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="819" text-anchor="middle" class="value">0.230</text>
+<circle cx="953" cy="813" r="7" fill="#16a34a"/>
+<text x="967" y="818" class="small">accepted</text>
+<text x="270" y="866" text-anchor="end" class="label">finance.country_code</text>
+<rect x="300" y="838" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="864" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="838" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="864" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="838" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="864" text-anchor="middle" class="value">0.970</text>
+<rect x="675" y="838" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="864" text-anchor="middle" class="value">0.991</text>
+<rect x="800" y="838" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="864" text-anchor="middle" class="value">0.173</text>
+<circle cx="953" cy="858" r="7" fill="#16a34a"/>
+<text x="967" y="863" class="small">accepted</text>
+<text x="270" y="911" text-anchor="end" class="label">finance.amount</text>
+<rect x="300" y="883" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="909" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="883" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="909" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="883" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="909" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="883" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="909" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="883" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="909" text-anchor="middle" class="value">0.327</text>
+<circle cx="953" cy="903" r="7" fill="#16a34a"/>
+<text x="967" y="908" class="small">accepted</text>
+<text x="270" y="956" text-anchor="end" class="label">finance.transaction_date</text>
+<rect x="300" y="928" width="120" height="40" fill="#2563eb"/>
+<text x="360.0" y="954" text-anchor="middle" class="value">1.000</text>
+<rect x="425" y="928" width="120" height="40" fill="#2563eb"/>
+<text x="485.0" y="954" text-anchor="middle" class="value">1.000</text>
+<rect x="550" y="928" width="120" height="40" fill="#2563eb"/>
+<text x="610.0" y="954" text-anchor="middle" class="value">1.000</text>
+<rect x="675" y="928" width="120" height="40" fill="#2563eb"/>
+<text x="735.0" y="954" text-anchor="middle" class="value">1.000</text>
+<rect x="800" y="928" width="120" height="40" fill="#dbeafe"/>
+<text x="860.0" y="954" text-anchor="middle" class="value">0.327</text>
+<circle cx="953" cy="948" r="7" fill="#16a34a"/>
+<text x="967" y="953" class="small">accepted</text>
+<rect x="300" y="998" width="180" height="15" fill="url(#heatGradient)"/>
+<defs><linearGradient id="heatGradient"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#2563eb"/></linearGradient></defs>
+<text x="300" y="1033" class="small">0 — faible</text>
+<text x="480" y="1033" text-anchor="end" class="small">1 — élevé</text>
+</svg>

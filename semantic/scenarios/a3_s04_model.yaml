@@ -1,0 +1,17 @@
+extends: ../model.yaml
+
+overrides:
+  concepts:
+    Customer:
+      add_attributes:
+        recently_active_90d:
+          type: boolean
+          synonyms: [active]
+          definition: Connexion observée au cours des 90 derniers jours.
+          valid_to: 2025-06-30
+        paying_contract_active:
+          type: boolean
+          synonyms: [active]
+          definition: Contrat payant en cours à la date d'observation.
+          valid_from: 2025-07-01
+

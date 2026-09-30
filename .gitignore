@@ -1,0 +1,11 @@
+myenv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.streamlit/secrets.toml
+app/workspaces/*
+!app/workspaces/.gitignore

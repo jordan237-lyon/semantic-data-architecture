@@ -1,0 +1,17 @@
+{
+  "semantic_quality": {
+    "expected_mappings": 2,
+    "accepted_correct": 2,
+    "accepted_incorrect": 0,
+    "gross_net_confusions": 0,
+    "review_mappings": 0,
+    "candidate_accuracy": 1.0,
+    "coverage": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "declarative_semantic_mappings": 2,
+  "grain_handling": "declared_customer_month",
+  "execution_time_seconds": 0.016145
+}

@@ -1,0 +1,12 @@
+{
+  "drift_detected": true,
+  "correct_temporal_mappings": 0,
+  "expected_temporal_mappings": 2,
+  "human_reviews_required": 1,
+  "silent_wrong_acceptances": 0,
+  "safe_handling": true,
+  "adaptation_actions": 0,
+  "handling": "technical_distribution_alert",
+  "threshold": 0.1,
+  "execution_time_seconds": 0.001358
+}

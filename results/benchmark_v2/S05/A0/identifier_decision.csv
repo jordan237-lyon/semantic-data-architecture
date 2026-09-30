@@ -1,0 +1,2 @@
+source_column,semantic_attribute,decision,confidence,ticket_share,customer_share,reason
+customer_id,conditional_split,accepted,manual,0.7,0.3,Séparation manuelle par préfixe

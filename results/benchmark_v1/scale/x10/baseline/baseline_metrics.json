@@ -1,0 +1,15 @@
+{
+  "pipeline": "baseline_manual_etl",
+  "execution_time_seconds": 0.04212,
+  "manual_schema_mappings": 19,
+  "manual_transformation_rules": 12,
+  "crm_raw_rows": 1200,
+  "support_raw_tickets": 4950,
+  "support_customers_after_aggregation": 900,
+  "finance_raw_transactions": 2500,
+  "finance_accounts_after_aggregation": 1000,
+  "output_rows": 1260,
+  "output_columns": 13,
+  "matched_support_rows_by_email": 900,
+  "matched_finance_rows_by_email": 1000
+}

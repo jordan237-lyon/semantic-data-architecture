@@ -1,0 +1,21 @@
+{
+  "scenario": "S02",
+  "title": "Noms différents, même sens",
+  "finance_change": {
+    "from": "amount",
+    "to": "gross_amount",
+    "rows": 250
+  },
+  "new_source": {
+    "name": "sales",
+    "rows": 120,
+    "linked_customers": 80
+  },
+  "equivalent_columns": [
+    "finance.gross_amount",
+    "sales.turnover_value"
+  ],
+  "correct_target": "Transaction.amount",
+  "confusable_target": "Customer.revenue",
+  "architectures_executed": []
+}

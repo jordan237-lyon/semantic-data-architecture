@@ -1,0 +1,5 @@
+campaign,architecture,scenario,precision,recall,f1_score,comparison_status
+benchmark_v1,baseline,P00,1.0,0.958015,0.978558,directly_comparable
+benchmark_v1,semantic,P00,1.0,0.958015,0.978558,directly_comparable
+benchmark_v2,A1,P00,1.0,0.958015,0.978558,directly_comparable
+benchmark_v2,A2,P00,1.0,0.958015,0.978558,directly_comparable

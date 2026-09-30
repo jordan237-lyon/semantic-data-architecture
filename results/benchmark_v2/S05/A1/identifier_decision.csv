@@ -1,0 +1,2 @@
+source_column,semantic_attribute,decision,confidence,ticket_share,customer_share,reason
+customer_id,Customer.identifier,accepted,0.85,0.7,0.3,"Rôle technique identifier, nom customer_id"

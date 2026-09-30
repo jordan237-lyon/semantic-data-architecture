@@ -1,0 +1,26 @@
+{
+  "scenario": "P02",
+  "architecture": "A2_declarative_semantic",
+  "phase": "before_adaptation",
+  "status": "technical_success_business_failure",
+  "entity_quality": {
+    "precision": 1.0,
+    "recall": 0.958015,
+    "f1_score": 0.978558
+  },
+  "country_value_quality": {
+    "canonical_values": 0,
+    "evaluated_finance_accounts": 100,
+    "country_conformity": 0.0,
+    "observed_formats": [
+      "belgium",
+      "cameroon",
+      "canada",
+      "france",
+      "germany",
+      "italy",
+      "spain"
+    ]
+  },
+  "interpretation": "Le pipeline réussit et le matching reste stable, mais aucune valeur pays Finance n'est conforme au vocabulaire canonique."
+}

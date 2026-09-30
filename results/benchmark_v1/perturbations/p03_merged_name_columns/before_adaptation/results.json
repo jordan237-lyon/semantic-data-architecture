@@ -1,0 +1,51 @@
+{
+  "scenario": "p03_merged_name_columns",
+  "description": "Fusion structurelle de deux colonnes CRM en un nom complet.",
+  "change": {
+    "source": "crm",
+    "before": [
+      "first_name",
+      "last_name"
+    ],
+    "after": [
+      "customer_name"
+    ],
+    "column_count_delta": -1,
+    "values_modified": false
+  },
+  "baseline": {
+    "status": "failed",
+    "code_changes_applied": 0,
+    "adaptation_required": true,
+    "error": "KeyError: 'first_name'"
+  },
+  "semantic": {
+    "status": "success",
+    "code_changes_applied": 0,
+    "adaptation_required": false,
+    "perturbed_column_mapping": {
+      "source": "crm",
+      "source_concept": "Customer",
+      "source_column": "customer_name",
+      "inferred_type": "string",
+      "detected_format": "",
+      "semantic_attribute": "Customer.full_name",
+      "name_score": "1.0",
+      "type_score": "1.0",
+      "value_score": "1.0",
+      "total_score": "1.0",
+      "second_candidate": "Customer.identifier",
+      "second_score": "0.9",
+      "score_margin": "0.1",
+      "decision": "accepted",
+      "decision_reason": "Score et marge suffisants"
+    },
+    "mapping_matches_ground_truth": true,
+    "incremental_human_validations": 0,
+    "entity_quality": {
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    }
+  }
+}

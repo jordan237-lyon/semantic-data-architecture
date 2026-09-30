@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,reason
+crm,status,Customer.customer_status,review,1.0,Validation requise : marge 0.009 < 0.100
+support,status,SupportTicket.ticket_status,review,1.0,Validation requise : marge 0.009 < 0.100

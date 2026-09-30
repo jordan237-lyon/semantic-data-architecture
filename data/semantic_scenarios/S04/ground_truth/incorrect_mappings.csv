@@ -1,0 +1,4 @@
+source,source_column,incorrect_semantic_attribute,reason
+customer_activity,active,Customer.active,Un mapping unique masque la rupture de définition du 2025-07-01.
+customer_activity,active,Customer.recently_active_90d,Cette définition n'est valide que jusqu'au 2025-06-30.
+customer_activity,active,Customer.paying_contract_active,Cette définition n'est valide qu'à partir du 2025-07-01.

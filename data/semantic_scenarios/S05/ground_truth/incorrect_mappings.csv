@@ -1,0 +1,3 @@
+source,source_column,incorrect_semantic_attribute,reason
+mixed_events,customer_id,Customer.identifier,70 % des valeurs sont des identifiants de tickets.
+mixed_events,customer_id,SupportTicket.identifier,30 % des valeurs sont de véritables identifiants clients.

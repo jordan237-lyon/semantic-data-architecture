@@ -1,0 +1,37 @@
+extends: ../model.yaml
+
+overrides:
+  add_concepts:
+    RevenueSnapshot:
+      description: Mesures de revenu définies pour un client et un mois calendaire.
+      attributes:
+        account_reference:
+          type: string
+          semantic_role: foreign_key
+          references: Customer.identifier
+          synonyms: [account_id]
+        period:
+          type: string
+          synonyms: [period]
+        gross_revenue:
+          type: decimal
+          synonyms: [gross_revenue]
+          definition: Avant déduction des taxes et remboursements.
+          unit: EUR
+          grain: customer_month
+        net_revenue:
+          type: decimal
+          synonyms: [net_revenue]
+          definition: Après déduction des taxes et remboursements.
+          unit: EUR
+          grain: customer_month
+        currency:
+          type: string
+          synonyms: [currency]
+  add_relations:
+    - name: customer_has_revenue_snapshots
+      source: Customer
+      target: RevenueSnapshot
+      source_attribute: Customer.identifier
+      target_attribute: RevenueSnapshot.account_reference
+      cardinality: one_to_many

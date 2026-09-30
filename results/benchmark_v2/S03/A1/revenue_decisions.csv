@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,score_margin,reason
+revenue_gross,gross_revenue,,review,0.8,,Mesure numérique : définition comptable indéductible des métadonnées techniques
+revenue_net,net_revenue,,review,0.8,,Mesure numérique : définition comptable indéductible des métadonnées techniques

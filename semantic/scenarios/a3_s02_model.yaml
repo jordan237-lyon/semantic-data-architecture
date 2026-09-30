@@ -1,0 +1,13 @@
+extends: ../model.yaml
+
+overrides:
+  concepts:
+    Customer:
+      extend_synonyms:
+        email: [customer_email]
+    Transaction:
+      extend_synonyms:
+        identifier: [sale_id]
+        account_reference: [account_reference]
+        amount: [gross_amount, turnover_value]
+        transaction_date: [sale_date]

@@ -1,0 +1,22 @@
+{
+  "campaign": "R01",
+  "scenario": "S01",
+  "intensity": "I0",
+  "seed": 22,
+  "subset": "test",
+  "architecture": "A3",
+  "status": "success",
+  "wall_time_seconds": 0.0003394159999999813,
+  "cpu_time_seconds": 0.00033999999999989594,
+  "peak_python_memory_mb": 0.011363029479980469,
+  "initial_score": 1.0,
+  "final_score": 1.0,
+  "initial_safe": true,
+  "final_safe": true,
+  "silent_wrong_acceptances_initial": 0,
+  "silent_wrong_acceptances_final": 0,
+  "human_reviews": 0,
+  "adaptation_actions": 0,
+  "configuration_actions": 0,
+  "automatic_coverage_initial": 1.0
+}

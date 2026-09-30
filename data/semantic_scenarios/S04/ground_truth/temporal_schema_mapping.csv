@@ -1,0 +1,3 @@
+source,source_column,valid_from,valid_to,semantic_attribute,definition_version
+customer_activity,active,,2025-06-30,Customer.recently_active_90d,activity_v1
+customer_activity,active,2025-07-01,,Customer.paying_contract_active,contract_v2

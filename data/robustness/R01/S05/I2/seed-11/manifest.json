@@ -1,0 +1,18 @@
+{
+  "architectures_executed": [],
+  "campaign": "R01",
+  "intensity": "I2",
+  "noise_rate": 0.05,
+  "parameters": {
+    "customer_share": 0.1,
+    "ticket_share": 0.9
+  },
+  "scenario": "S05",
+  "seed": 11,
+  "sha256": {
+    "ground_truth/semantic_definitions.yaml": "d3180f54a3ea841ee8efa48c57d5878cb17b7da698efabfd92c4de932e70232c",
+    "ground_truth/value_ground_truth.csv": "79e9682faea555c6c17a102d85026a8d56c88a44435faeb78ac484f2bf40eaa8",
+    "raw/mixed_events.csv": "7f126347ca9a3603d9feda299c33365349d0b3fbf05d0b80af17f49cc55b4361"
+  },
+  "size": 100
+}

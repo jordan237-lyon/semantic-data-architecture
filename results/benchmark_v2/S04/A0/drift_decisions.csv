@@ -1,0 +1,3 @@
+phase,source_column,semantic_attribute,decision,confidence,reason
+before,active,Customer.recently_active_90d,accepted,manual,snapshot_date < 2025-07-01
+after,active,Customer.paying_contract_active,accepted,manual,snapshot_date >= 2025-07-01

@@ -1,0 +1,20 @@
+{
+  "measurement_note": "Les unités décrivent des artefacts ou décisions, pas des heures de travail. Le coût initial du modèle sémantique est séparé de l'effort par intégration.",
+  "baseline_per_integration": {
+    "manual_schema_mappings": 19,
+    "manual_transformation_rules": 9
+  },
+  "semantic_initial_architecture": {
+    "concepts": 3,
+    "canonical_attributes": 14,
+    "relations": 2,
+    "derived_attributes": 2,
+    "matching_policy": 1
+  },
+  "semantic_per_integration": {
+    "automatic_schema_mappings": 17,
+    "human_validations": 2,
+    "rejected_mappings": 0,
+    "automation_rate": 0.894737
+  }
+}

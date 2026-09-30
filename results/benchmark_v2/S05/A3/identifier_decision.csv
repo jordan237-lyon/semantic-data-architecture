@@ -1,0 +1,2 @@
+source_column,semantic_attribute,decision,confidence,ticket_share,customer_share,reason
+customer_id,Customer.identifier,review,1.0,0.7,0.3,Deux classes sémantiques détectées dans une colonne unique

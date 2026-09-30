@@ -1,0 +1,183 @@
+{
+  "comparison_scope": {
+    "benchmark_v1": {
+      "architectures": [
+        "baseline",
+        "semantic"
+      ],
+      "structural_scenarios": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "semantic_scenarios": []
+    },
+    "benchmark_v2": {
+      "architectures": [
+        "A0",
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "structural_scenarios": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "semantic_scenarios": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    }
+  },
+  "directly_comparable_nominal_entity_quality": {
+    "metric": "entity matching on P00",
+    "benchmark_v1_baseline": {
+      "expected_pairs": 262,
+      "predicted_pairs": 251,
+      "true_positives": 251,
+      "false_positives": 0,
+      "false_negatives": 11,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    "benchmark_v1_semantic": {
+      "expected_pairs": 262,
+      "predicted_pairs": 251,
+      "true_positives": 251,
+      "false_positives": 0,
+      "false_negatives": 11,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    "benchmark_v2_A1": {
+      "expected_pairs": 262,
+      "predicted_pairs": 251,
+      "true_positives": 251,
+      "false_positives": 0,
+      "false_negatives": 11,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    "benchmark_v2_A2": {
+      "expected_pairs": 262,
+      "predicted_pairs": 251,
+      "true_positives": 251,
+      "false_positives": 0,
+      "false_negatives": 11,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    "finding": "All measured approaches have the same nominal entity F1; V2 adds architectural and semantic-disambiguation coverage rather than a nominal-quality gain."
+  },
+  "v1_performance_context": {
+    "baseline": {
+      "wall_time_seconds": {
+        "mean": 0.032033904,
+        "median": 0.031386479,
+        "min": 0.0299135,
+        "max": 0.044379042,
+        "standard_deviation": 0.002560229
+      },
+      "cpu_time_seconds": {
+        "mean": 0.031668967,
+        "median": 0.031292,
+        "min": 0.029825,
+        "max": 0.040398,
+        "standard_deviation": 0.001886264
+      },
+      "python_peak_memory_bytes": {
+        "mean": 514869.2,
+        "median": 517560.0,
+        "min": 507029,
+        "max": 524237,
+        "standard_deviation": 5557.130898824
+      }
+    },
+    "semantic": {
+      "wall_time_seconds": {
+        "mean": 0.166291836,
+        "median": 0.163417083,
+        "min": 0.1588275,
+        "max": 0.2038525,
+        "standard_deviation": 0.0092359
+      },
+      "cpu_time_seconds": {
+        "mean": 0.163237,
+        "median": 0.1623535,
+        "min": 0.15805,
+        "max": 0.17514,
+        "standard_deviation": 0.004692251
+      },
+      "python_peak_memory_bytes": {
+        "mean": 717843.866666667,
+        "median": 717784.0,
+        "min": 713469,
+        "max": 727393,
+        "standard_deviation": 3682.568168487
+      }
+    },
+    "semantic_to_baseline_wall_time_ratio": 5.206608,
+    "semantic_to_baseline_python_memory_ratio": 1.386861
+  },
+  "v2_semantic_scenario_results": {
+    "A0": {
+      "architecture": "A0",
+      "initial_mean_outcome": 1.0,
+      "final_mean_outcome": 1.0,
+      "initial_safe_scenarios": 5,
+      "final_safe_scenarios": 5,
+      "initial_human_reviews": 0,
+      "silent_wrong_acceptances": 0,
+      "post_detection_adaptation_actions": 0
+    },
+    "A1": {
+      "architecture": "A1",
+      "initial_mean_outcome": 0.26,
+      "final_mean_outcome": 0.26,
+      "initial_safe_scenarios": 4,
+      "final_safe_scenarios": 4,
+      "initial_human_reviews": 7,
+      "silent_wrong_acceptances": 70,
+      "post_detection_adaptation_actions": 0
+    },
+    "A2": {
+      "architecture": "A2",
+      "initial_mean_outcome": 0.66,
+      "final_mean_outcome": 1.0,
+      "initial_safe_scenarios": 3,
+      "final_safe_scenarios": 5,
+      "initial_human_reviews": 0,
+      "silent_wrong_acceptances": 71,
+      "post_detection_adaptation_actions": 4
+    },
+    "A3": {
+      "architecture": "A3",
+      "initial_mean_outcome": 0.8,
+      "final_mean_outcome": 0.8,
+      "initial_safe_scenarios": 5,
+      "final_safe_scenarios": 5,
+      "initial_human_reviews": 4,
+      "silent_wrong_acceptances": 0,
+      "post_detection_adaptation_actions": 0
+    }
+  },
+  "comparison_limits": [
+    "V1 entity F1 and V2 semantic outcome scores measure different tasks and are not merged.",
+    "V2 A0 and A3 nominal P00 timings were not re-benchmarked in the same execution batch as A1 and A2.",
+    "Execution-time values from separate campaigns are descriptive, not causal evidence."
+  ]
+}

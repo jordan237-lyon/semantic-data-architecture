@@ -1,0 +1,33 @@
+{
+  "architecture": "A1_technical_metadata",
+  "semantic_model_used": false,
+  "discovered_sources": [
+    "crm",
+    "finance",
+    "support"
+  ],
+  "profiled_columns": 18,
+  "mapped_technical_roles": 13,
+  "review_columns": 5,
+  "output_rows": 126,
+  "entity_quality": {
+    "expected_pairs": 262,
+    "predicted_pairs": 251,
+    "true_positives": 251,
+    "false_positives": 0,
+    "false_negatives": 11,
+    "precision": 1.0,
+    "recall": 0.958015,
+    "f1_score": 0.978558
+  },
+  "execution_time_seconds": 0.026843,
+  "benchmark_repetitions": 5,
+  "execution_time_seconds_runs": [
+    0.02847,
+    0.026904,
+    0.027096,
+    0.027827,
+    0.026843
+  ],
+  "execution_time_seconds_median": 0.027096
+}

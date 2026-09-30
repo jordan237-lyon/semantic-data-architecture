@@ -1,0 +1,15 @@
+architecture: A2
+scenario: S05
+reason: Un mapping déclaratif colonne-vers-attribut ne peut pas typer correctement une colonne hétérogène.
+preprocessing:
+  operation: split_by_prefix
+  source_column: customer_id
+  outputs:
+    - condition: starts_with TKT-
+      target: SupportTicket.identifier
+    - condition: starts_with CRM
+      target: Customer.identifier
+    - condition: otherwise
+      decision: reject
+adaptation_actions: 3
+

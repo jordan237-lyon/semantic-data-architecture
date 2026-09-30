@@ -1,0 +1,62 @@
+{
+  "phase": "after_adaptation",
+  "new_source": {
+    "source": "loyalty",
+    "rows": 80,
+    "columns": [
+      "member_id",
+      "display_name",
+      "email_address",
+      "market",
+      "joined_on"
+    ],
+    "known_to_initial_pipelines": false,
+    "granularity": "one row per loyalty member"
+  },
+  "baseline": {
+    "pipeline_status": "success",
+    "source_coverage": 1.0,
+    "loyalty_quality": {
+      "expected_pairs": 80,
+      "predicted_pairs": 80,
+      "true_positives": 80,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "adaptation": {
+      "manual_schema_mappings_added": 5,
+      "manual_rules_added": 5,
+      "python_files_modified": 2
+    },
+    "execution_time_seconds": 0.024531
+  },
+  "semantic": {
+    "pipeline_status": "success",
+    "source_coverage": 1.0,
+    "loyalty_quality": {
+      "expected_pairs": 80,
+      "predicted_pairs": 80,
+      "true_positives": 80,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "adaptation": {
+      "yaml_synonyms_added": 4,
+      "generic_orchestration_python_files_modified": 2,
+      "incremental_human_validations": 0
+    },
+    "loyalty_schema_decisions": {
+      "accepted": 5,
+      "review": 0,
+      "rejected": 0
+    },
+    "execution_time_seconds": 0.079462
+  },
+  "measurement_note": "Effort is counted as mappings, rules, validations and modified artifacts, not elapsed human hours."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "loyalty",
+  "rows": 80,
+  "columns": [
+    "member_id",
+    "display_name",
+    "email_address",
+    "market",
+    "joined_on"
+  ],
+  "known_to_initial_pipelines": false,
+  "granularity": "one row per loyalty member"
+}

@@ -1,0 +1,19 @@
+{
+  "architectures_executed": [],
+  "campaign": "R01",
+  "intensity": "I1",
+  "noise_rate": 0.05,
+  "parameters": {
+    "after_true_rate": 0.55,
+    "before_true_rate": 0.7,
+    "drift_points": 15
+  },
+  "scenario": "S04",
+  "seed": 11,
+  "sha256": {
+    "ground_truth/semantic_definitions.yaml": "1a20e18932abd1dbc126fd3799d45316eaba1069ee2c01dfd0d78a3dc9d03dbc",
+    "ground_truth/temporal_schema_mapping.csv": "cb06cefd1a76fa4cab5db8a1a4f4ac00ffabae719fac04e4c02a4e10a25344c3",
+    "raw/customer_activity.csv": "7972f200e911fc85095dd092f616ba6507615c1b40a071390207fa56b198058d"
+  },
+  "size": 100
+}

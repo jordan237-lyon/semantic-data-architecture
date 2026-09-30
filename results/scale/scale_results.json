@@ -1,0 +1,86 @@
+{
+  "phase": "after_baseline_null_fix",
+  "baseline_adaptation": {
+    "type": "non_comparable_missing_email_join_keys",
+    "rules_added": 1,
+    "manual_transformation_rules_total": 12
+  },
+  "protocol": {
+    "scale_factors": [
+      1,
+      5,
+      10
+    ],
+    "warmup_runs_per_pipeline_and_scale": 1,
+    "measured_runs_per_pipeline_and_scale": 5,
+    "memory_scope": "Python allocations measured by tracemalloc"
+  },
+  "results": [
+    {
+      "scale_factor": 1,
+      "pipeline": "baseline",
+      "input_rows": 865,
+      "output_rows": 126,
+      "median_wall_time_seconds": 0.032749417,
+      "median_python_peak_memory_bytes": 520991,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 1,
+      "pipeline": "semantic",
+      "input_rows": 865,
+      "output_rows": 126,
+      "median_wall_time_seconds": 0.158397,
+      "median_python_peak_memory_bytes": 724916,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 5,
+      "pipeline": "baseline",
+      "input_rows": 4325,
+      "output_rows": 630,
+      "median_wall_time_seconds": 0.061094584,
+      "median_python_peak_memory_bytes": 1549382,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 5,
+      "pipeline": "semantic",
+      "input_rows": 4325,
+      "output_rows": 630,
+      "median_wall_time_seconds": 0.291303584,
+      "median_python_peak_memory_bytes": 2072542,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 10,
+      "pipeline": "baseline",
+      "input_rows": 8650,
+      "output_rows": 1260,
+      "median_wall_time_seconds": 0.09293725,
+      "median_python_peak_memory_bytes": 2959344,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 10,
+      "pipeline": "semantic",
+      "input_rows": 8650,
+      "output_rows": 1260,
+      "median_wall_time_seconds": 0.452961708,
+      "median_python_peak_memory_bytes": 3843371,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    }
+  ]
+}

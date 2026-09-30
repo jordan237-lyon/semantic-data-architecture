@@ -1,0 +1,7 @@
+experiment,change,baseline_outcome,semantic_outcome,baseline_effort,semantic_effort,baseline_metric,semantic_metric
+Nominal quality,Three original sources,success,success,19 mappings; 12 rules,17 automatic; 2 validations,0.978558,0.978558
+P01 renamed column,support.mail -> customer_email_address,failed before code adaptation,success after 1 validation,code adaptation required,1 incremental validation; 0 code,failed,0.978558
+P02 value format,country codes -> lowercase names,0% -> 100% conformity,0% -> 100% conformity,1 Python rule,7 YAML vocabulary entries,1.0,1.0
+P03 merged columns,first_name + last_name -> customer_name,failed -> success,automatic success,1 Python rule,0 change; 0 validation,0.978558,0.978558
+Scale x10,865 -> 8650 source rows,stable after null fix,stable without change,1 Python null-handling rule,0 change,0.978558,0.978558
+Fourth source,80 Loyalty members; 5 new columns,0% -> 100% coverage,0% -> 100% coverage,5 mappings; 5 rules; 2 Python files,4 YAML synonyms; generic orchestration; 0 validation,1.0,1.0

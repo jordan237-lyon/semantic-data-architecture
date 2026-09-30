@@ -1,0 +1,23 @@
+{
+  "decision": "mapped",
+  "technical_role": "identifier",
+  "confidence": 0.85,
+  "value_quality": {
+    "rows": 100,
+    "correct_rows": 50,
+    "incorrect_rows": 50,
+    "unmapped_rows": 0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5
+  },
+  "safe_handling": false,
+  "human_reviews_required": 0,
+  "silent_wrong_acceptances": 50,
+  "configuration_actions": 0,
+  "performance": {
+    "wall_time_seconds": 0.003966,
+    "cpu_time_seconds": 0.003798,
+    "peak_python_memory_mb": 0.035411
+  }
+}

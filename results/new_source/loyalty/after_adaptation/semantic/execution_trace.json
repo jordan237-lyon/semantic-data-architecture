@@ -1,0 +1,35 @@
+[
+  {
+    "step": "load_sources_and_model",
+    "duration_seconds": 0.014332,
+    "rows": {
+      "crm": 120,
+      "finance": 250,
+      "loyalty": 80,
+      "support": 495
+    }
+  },
+  {
+    "step": "profile_match_and_decide",
+    "duration_seconds": 0.043294,
+    "profiled_columns": 24,
+    "accepted_automatically": 22,
+    "human_validations": 2
+  },
+  {
+    "step": "semantic_transformations_and_aggregations",
+    "duration_seconds": 0.014093,
+    "customer_level_rows": {
+      "crm": 120,
+      "finance": 100,
+      "loyalty": 80,
+      "support": 90
+    }
+  },
+  {
+    "step": "entity_matching",
+    "duration_seconds": 0.006543,
+    "rule": "exact normalized email; missing values are never comparable",
+    "output_rows": 126
+  }
+]

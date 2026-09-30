@@ -1,0 +1,12 @@
+architecture: A0
+scenario: S02
+rules:
+  - {source: finance, source_column: gross_amount, target: Transaction.amount, implementation: manual}
+  - {source: sales, source_column: sale_id, target: Transaction.identifier, implementation: manual}
+  - {source: sales, source_column: account_reference, target: Transaction.account_reference, implementation: manual}
+  - {source: sales, source_column: customer_email, target: Customer.email, implementation: manual}
+  - {source: sales, source_column: turnover_value, target: Transaction.amount, implementation: manual}
+  - {source: sales, source_column: sale_date, target: Transaction.transaction_date, implementation: manual}
+aggregations:
+  - {source: finance, input: gross_amount, group_by: account_id, target: Customer.revenue, operation: sum}
+  - {source: sales, input: turnover_value, group_by: account_reference, target: Customer.revenue, operation: sum}

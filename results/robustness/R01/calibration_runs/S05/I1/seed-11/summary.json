@@ -1,0 +1,117 @@
+{
+  "campaign": "R01",
+  "subset": "calibration",
+  "scenario": "S05",
+  "intensity": "I1",
+  "seed": 11,
+  "dataset": {
+    "rows": 100,
+    "ticket_share": 0.5,
+    "customer_share": 0.5
+  },
+  "architectures": {
+    "A0": {
+      "decision": "accepted_conditional_split",
+      "value_quality": {
+        "rows": 100,
+        "correct_rows": 100,
+        "incorrect_rows": 0,
+        "unmapped_rows": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "safe_handling": true,
+      "human_reviews_required": 0,
+      "silent_wrong_acceptances": 0,
+      "configuration_actions": 3,
+      "performance": {
+        "wall_time_seconds": 0.000328,
+        "cpu_time_seconds": 0.000333,
+        "peak_python_memory_mb": 0.015313
+      }
+    },
+    "A1": {
+      "decision": "mapped",
+      "technical_role": "identifier",
+      "confidence": 0.85,
+      "value_quality": {
+        "rows": 100,
+        "correct_rows": 50,
+        "incorrect_rows": 50,
+        "unmapped_rows": 0,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1_score": 0.5
+      },
+      "safe_handling": false,
+      "human_reviews_required": 0,
+      "silent_wrong_acceptances": 50,
+      "configuration_actions": 0,
+      "performance": {
+        "wall_time_seconds": 0.003966,
+        "cpu_time_seconds": 0.003798,
+        "peak_python_memory_mb": 0.035411
+      }
+    },
+    "A2": {
+      "before_adaptation": {
+        "decision": "accepted_static_mapping",
+        "value_quality": {
+          "rows": 100,
+          "correct_rows": 50,
+          "incorrect_rows": 50,
+          "unmapped_rows": 0,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1_score": 0.5
+        },
+        "safe_handling": false,
+        "silent_wrong_acceptances": 50,
+        "performance": {
+          "wall_time_seconds": 0.000236,
+          "cpu_time_seconds": 0.000236,
+          "peak_python_memory_mb": 0.010766
+        }
+      },
+      "after_adaptation": {
+        "decision": "accepted_conditional_split",
+        "value_quality": {
+          "rows": 100,
+          "correct_rows": 100,
+          "incorrect_rows": 0,
+          "unmapped_rows": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "safe_handling": true,
+        "silent_wrong_acceptances": 0,
+        "adaptation_actions": 3,
+        "performance": {
+          "wall_time_seconds": 0.000261,
+          "cpu_time_seconds": 0.000261,
+          "peak_python_memory_mb": 0.010781
+        }
+      }
+    },
+    "A3": {
+      "raw_candidate": "Customer.identifier",
+      "raw_decision": "review",
+      "raw_score": 1.0,
+      "raw_margin": 0.009,
+      "final_decision": "review",
+      "ticket_share": 0.5,
+      "customer_share": 0.5,
+      "safe_handling": true,
+      "human_reviews_required": 1,
+      "silent_wrong_acceptances": 0,
+      "configuration_actions": 0,
+      "performance": {
+        "wall_time_seconds": 0.047788,
+        "cpu_time_seconds": 0.047355,
+        "peak_python_memory_mb": 0.339205
+      }
+    }
+  }
+}

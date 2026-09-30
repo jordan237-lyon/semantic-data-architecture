@@ -1,0 +1,23 @@
+extends: ../a2_model.yaml
+
+overrides:
+  canonical_model:
+    add_attributes:
+      event_type: {type: string, nullable: true}
+  add_sources:
+    mixed_events:
+      entity_identifier: customer_id
+      granularity: event
+      mappings:
+        event_id: {target: customer_id, use: row_identifier}
+        customer_id: {target: customer_id}
+        contact_email: {target: email, transformations: [trim, lowercase]}
+        event_type: {target: event_type}
+        created_at: {target: created_at, transformations: [parse_date]}
+      aggregation:
+        group_by: customer_id
+        rules:
+          email: first_non_null
+          event_type: first_non_null
+          created_at: min
+

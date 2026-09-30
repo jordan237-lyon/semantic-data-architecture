@@ -1,0 +1,86 @@
+{
+  "scenario": "p02_country_format",
+  "description": "Les codes pays Finance deviennent des libellés en minuscules.",
+  "change": {
+    "source": "finance",
+    "column": "country_code",
+    "before_examples": [
+      "BE",
+      "CA",
+      "CM",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
+    ],
+    "after_examples": [
+      "belgium",
+      "cameroon",
+      "canada",
+      "france",
+      "germany",
+      "italy",
+      "spain"
+    ],
+    "schema_modified": false,
+    "values_modified": true
+  },
+  "phase": "after_adaptation",
+  "baseline": {
+    "status": "success",
+    "code_changes_applied": 1,
+    "adaptation": {
+      "type": "imperative_python_rule",
+      "files_modified": [
+        "src/baseline/transform.py"
+      ],
+      "rules_added": 1
+    },
+    "value_quality": {
+      "canonical_values": 100,
+      "evaluated_finance_accounts": 100,
+      "country_conformity": 1.0,
+      "observed_formats": [
+        "Belgium",
+        "Cameroon",
+        "Canada",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    }
+  },
+  "semantic": {
+    "status": "success",
+    "code_changes_applied": 0,
+    "incremental_human_validations": 0,
+    "adaptation": {
+      "type": "declarative_vocabulary_extension",
+      "files_modified": [
+        "semantic/model.yaml"
+      ],
+      "vocabulary_entries_added": 7
+    },
+    "value_quality": {
+      "canonical_values": 100,
+      "evaluated_finance_accounts": 100,
+      "country_conformity": 1.0,
+      "observed_formats": [
+        "Belgium",
+        "Cameroon",
+        "Canada",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    },
+    "entity_quality": {
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    }
+  },
+  "interpretation": "La baseline exige une règle Python ; la couche sémantique exige seulement un enrichissement déclaratif."
+}

@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,reason
+finance,gross_amount,Transaction.amount,accepted,declared,Mapping YAML au niveau transaction
+sales,turnover_value,Transaction.amount,accepted,declared,Mapping YAML au niveau transaction

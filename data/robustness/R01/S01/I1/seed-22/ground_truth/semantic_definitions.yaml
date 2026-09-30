@@ -1,0 +1,8 @@
+scenario: R01-S01
+overlap: 0.5
+attributes:
+  Customer.customer_status:
+    grain: customer
+  SupportTicket.ticket_status:
+    grain: ticket
+expected_a3_decision: review

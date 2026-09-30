@@ -1,0 +1,18 @@
+scenario: S01
+attributes:
+  Customer.customer_status:
+    definition: État courant du client dans la relation commerciale.
+    source: crm.status
+    allowed_values:
+    - active
+    - inactive
+    grain: customer
+    expected_a3_decision: accepted
+  SupportTicket.ticket_status:
+    definition: État de traitement d'un ticket de support.
+    source: support.status
+    allowed_values:
+    - open
+    - closed
+    grain: ticket
+    expected_a3_decision: accepted

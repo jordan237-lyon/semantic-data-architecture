@@ -1,0 +1,105 @@
+{
+  "scenario": "S01",
+  "architectures": {
+    "A0": {
+      "schema_quality": {
+        "expected_mappings": 2,
+        "accepted_mappings": 2,
+        "accepted_correct": 2,
+        "accepted_incorrect": 0,
+        "review_mappings": 0,
+        "rejected_mappings": 0,
+        "candidate_accuracy": 1.0,
+        "coverage": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "entity_quality": {
+        "expected_pairs": 262,
+        "predicted_pairs": 251,
+        "true_positives": 251,
+        "false_positives": 0,
+        "false_negatives": 11,
+        "precision": 1.0,
+        "recall": 0.958015,
+        "f1_score": 0.978558
+      },
+      "human_rules": 2,
+      "execution_time_seconds": 0.032727
+    },
+    "A1": {
+      "schema_quality": {
+        "expected_mappings": 2,
+        "accepted_mappings": 0,
+        "accepted_correct": 0,
+        "accepted_incorrect": 0,
+        "review_mappings": 2,
+        "rejected_mappings": 0,
+        "candidate_accuracy": 0.0,
+        "coverage": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "entity_quality": {
+        "expected_pairs": 262,
+        "predicted_pairs": 251,
+        "true_positives": 251,
+        "false_positives": 0,
+        "false_negatives": 11,
+        "precision": 1.0,
+        "recall": 0.958015,
+        "f1_score": 0.978558
+      },
+      "human_reviews_required": 2,
+      "execution_time_seconds": 0.031252
+    },
+    "A2": {
+      "schema_quality": {
+        "expected_mappings": 2,
+        "accepted_mappings": 2,
+        "accepted_correct": 2,
+        "accepted_incorrect": 0,
+        "review_mappings": 0,
+        "rejected_mappings": 0,
+        "candidate_accuracy": 1.0,
+        "coverage": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "entity_quality": {
+        "expected_pairs": 262,
+        "predicted_pairs": 251,
+        "true_positives": 251,
+        "false_positives": 0,
+        "false_negatives": 11,
+        "precision": 1.0,
+        "recall": 0.958015,
+        "f1_score": 0.978558
+      },
+      "declarative_mappings": 2,
+      "execution_time_seconds": 0.08755
+    },
+    "A3": {
+      "schema_quality": {
+        "expected_mappings": 2,
+        "accepted_mappings": 0,
+        "accepted_correct": 0,
+        "accepted_incorrect": 0,
+        "review_mappings": 2,
+        "rejected_mappings": 0,
+        "candidate_accuracy": 1.0,
+        "coverage": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "entity_quality": null,
+      "pipeline_status": "schema_review_required",
+      "human_reviews_required": 2,
+      "execution_time_seconds": 0.053014
+    }
+  }
+}

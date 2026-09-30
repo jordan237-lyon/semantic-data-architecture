@@ -1,0 +1,34 @@
+{
+  "architecture": "A2_declarative_semantic",
+  "automatic_matching": false,
+  "confidence_scoring": false,
+  "declared_sources": [
+    "crm",
+    "support",
+    "finance"
+  ],
+  "declarative_schema_mappings": 19,
+  "declarative_transformations": 13,
+  "output_rows": 630,
+  "output_columns": 18,
+  "entity_quality": {
+    "expected_pairs": 1310,
+    "predicted_pairs": 1255,
+    "true_positives": 1255,
+    "false_positives": 0,
+    "false_negatives": 55,
+    "precision": 1.0,
+    "recall": 0.958015,
+    "f1_score": 0.978558
+  },
+  "execution_time_seconds": 0.265873,
+  "benchmark_repetitions": 5,
+  "execution_time_seconds_runs": [
+    0.213174,
+    0.220142,
+    0.212415,
+    0.215357,
+    0.265873
+  ],
+  "execution_time_seconds_median": 0.215357
+}

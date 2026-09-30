@@ -1,0 +1,10 @@
+{
+  "scenario": "p01_renamed_column",
+  "description": "Renommage isolé de la colonne e-mail du support.",
+  "change": {
+    "source": "support",
+    "before": "mail",
+    "after": "customer_email_address",
+    "values_modified": false
+  }
+}

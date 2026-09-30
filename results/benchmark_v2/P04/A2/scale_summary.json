@@ -1,0 +1,35 @@
+{
+  "architecture": "A2",
+  "results": [
+    {
+      "scale": "x1",
+      "benchmark_repetitions": 5,
+      "output_rows": 126,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.071825,
+      "declarative_adaptations": 0
+    },
+    {
+      "scale": "x5",
+      "benchmark_repetitions": 5,
+      "output_rows": 630,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.215357,
+      "declarative_adaptations": 0
+    },
+    {
+      "scale": "x10",
+      "benchmark_repetitions": 5,
+      "output_rows": 1260,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.384406,
+      "declarative_adaptations": 0
+    }
+  ]
+}

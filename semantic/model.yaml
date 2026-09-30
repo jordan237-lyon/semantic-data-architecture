@@ -1,0 +1,185 @@
+version: "1.0"
+canonical_entity: Customer
+
+matching_policy:
+  weights:
+    name: 0.50
+    type: 0.20
+    value: 0.30
+  thresholds:
+    auto_accept_score: 0.85
+    auto_accept_margin: 0.10
+    review_score: 0.60
+
+normalization_catalog:
+  country_code_to_name:
+    FR: France
+    france: France
+    CM: Cameroon
+    cameroon: Cameroon
+    DE: Germany
+    germany: Germany
+    ES: Spain
+    spain: Spain
+    BE: Belgium
+    belgium: Belgium
+    CA: Canada
+    canada: Canada
+    IT: Italy
+    italy: Italy
+
+concepts:
+  Customer:
+    description: Client unifié provenant des différentes sources.
+    attributes:
+      identifier:
+        type: string
+        semantic_role: identifier
+        synonyms:
+          - client_id
+          - customer_ref
+          - account_id
+          - customer_id
+          - member_id
+
+      full_name:
+        type: string
+        synonyms:
+          - full_name
+          - customer_name
+          - first_name
+          - last_name
+          - display_name
+        normalization:
+          - trim
+          - collapse_spaces
+          - title_case
+        composition:
+          strategy: concatenate
+          source_fields:
+            - first_name
+            - last_name
+          separator: " "
+
+      email:
+        type: string
+        format: email
+        synonyms:
+          - email
+          - mail
+          - contact_email
+          - email_address
+        normalization:
+          - trim
+          - lowercase
+        matching:
+          comparable: true
+          nulls_are_comparable: false
+
+      country:
+        type: string
+        synonyms:
+          - country
+          - country_name
+          - country_code
+          - market
+        normalization:
+          - trim
+          - country_code_to_name
+
+      created_at:
+        type: date
+        synonyms:
+          - created_at
+          - customer_created_at
+          - joined_on
+
+      ticket_count:
+        type: integer
+        semantic_role: derived_measure
+        synonyms:
+          - ticket_count
+
+      revenue:
+        type: decimal
+        semantic_role: derived_measure
+        synonyms:
+          - revenue
+          - total_revenue
+
+  SupportTicket:
+    description: Interaction individuelle d'un client avec le support.
+    attributes:
+      identifier:
+        type: string
+        semantic_role: identifier
+        synonyms:
+          - ticket_id
+
+      customer_reference:
+        type: string
+        semantic_role: foreign_key
+        references: Customer.identifier
+        synonyms:
+          - customer_ref
+          - support_customer_ref
+
+      created_at:
+        type: date
+        synonyms:
+          - created_at
+          - ticket_created_at
+
+  Transaction:
+    description: Mouvement financier individuel associé à un compte client.
+    attributes:
+      identifier:
+        type: string
+        semantic_role: identifier
+        synonyms:
+          - transaction_id
+
+      account_reference:
+        type: string
+        semantic_role: foreign_key
+        references: Customer.identifier
+        synonyms:
+          - account_id
+          - finance_account_id
+
+      amount:
+        type: decimal
+        semantic_role: measure
+        synonyms:
+          - amount
+          - transaction_amount
+
+      transaction_date:
+        type: date
+        synonyms:
+          - transaction_date
+          - payment_date
+
+relations:
+  - name: customer_has_tickets
+    source: Customer
+    target: SupportTicket
+    source_attribute: Customer.identifier
+    target_attribute: SupportTicket.customer_reference
+    cardinality: one_to_many
+
+  - name: customer_has_transactions
+    source: Customer
+    target: Transaction
+    source_attribute: Customer.identifier
+    target_attribute: Transaction.account_reference
+    cardinality: one_to_many
+
+derived_attributes:
+  Customer.ticket_count:
+    source: SupportTicket.identifier
+    aggregation: count
+
+  Customer.revenue:
+    source: Transaction.amount
+    aggregation: sum

@@ -1,0 +1,15 @@
+{
+  "architecture": "A2_declarative_semantic",
+  "coverage": ["P00", "P01", "P02", "P03", "P04", "P05"],
+  "conclusion": "A2 preserves nominal quality after explicit YAML adaptations but performs no automatic mapping or confidence-based decision.",
+  "adaptation_operations": {
+    "P00": 0,
+    "P01": 1,
+    "P02": 7,
+    "P03": 4,
+    "P04": 0,
+    "P05": 10
+  },
+  "final_legacy_f1": 0.978558,
+  "p05_crm_loyalty_f1": 1.0
+}

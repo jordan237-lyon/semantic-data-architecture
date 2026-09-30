@@ -1,0 +1,18 @@
+{
+  "scenario": "P05",
+  "architecture": "A2_declarative_semantic",
+  "phase": "before_adaptation",
+  "status": "failure",
+  "discovery": {
+    "loyalty_csv_detected": true,
+    "loyalty_declared": false
+  },
+  "error": "Sources découvertes mais non déclarées dans A2 : loyalty",
+  "output_produced": false,
+  "required_adaptation": {
+    "source_declarations_added": 1,
+    "schema_mappings_added": 5,
+    "transformations_declared": 4,
+    "pipeline_or_transformer_python_change_required": false
+  }
+}

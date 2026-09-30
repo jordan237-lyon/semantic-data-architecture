@@ -1,0 +1,22 @@
+extends: ../a2_model.yaml
+
+overrides:
+  canonical_model:
+    add_attributes:
+      recently_active_90d: {type: boolean, nullable: true}
+  add_sources:
+    customer_activity:
+      entity_identifier: customer_id
+      granularity: customer_snapshot
+      mappings:
+        customer_id: {target: customer_id}
+        customer_email: {target: email, transformations: [trim, lowercase]}
+        snapshot_date: {target: created_at, transformations: [parse_date]}
+        active: {target: recently_active_90d}
+      aggregation:
+        group_by: customer_id
+        rules:
+          email: first_non_null
+          created_at: max
+          recently_active_90d: first_non_null
+

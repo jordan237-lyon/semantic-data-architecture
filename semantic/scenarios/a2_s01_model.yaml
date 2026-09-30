@@ -1,0 +1,20 @@
+extends: ../a2_model.yaml
+
+overrides:
+  canonical_model:
+    add_attributes:
+      customer_status:
+        type: string
+        nullable: true
+      ticket_status:
+        type: string
+        nullable: true
+  sources:
+    crm:
+      add_mappings:
+        status:
+          target: customer_status
+    support:
+      add_mappings:
+        status:
+          target: ticket_status

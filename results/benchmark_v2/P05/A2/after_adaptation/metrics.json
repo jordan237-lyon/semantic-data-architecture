@@ -1,0 +1,26 @@
+{
+  "architecture": "A2_declarative_semantic",
+  "automatic_matching": false,
+  "confidence_scoring": false,
+  "declared_sources": [
+    "crm",
+    "support",
+    "finance",
+    "loyalty"
+  ],
+  "declarative_schema_mappings": 24,
+  "declarative_transformations": 17,
+  "output_rows": 126,
+  "output_columns": 23,
+  "entity_quality": {
+    "expected_pairs": 262,
+    "predicted_pairs": 251,
+    "true_positives": 251,
+    "false_positives": 0,
+    "false_negatives": 11,
+    "precision": 1.0,
+    "recall": 0.958015,
+    "f1_score": 0.978558
+  },
+  "execution_time_seconds": 0.098249
+}

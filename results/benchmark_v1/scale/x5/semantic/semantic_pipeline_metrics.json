@@ -1,0 +1,13 @@
+{
+  "pipeline": "semantic_assisted",
+  "execution_time_seconds": 0.115239,
+  "automatic_schema_mappings": 17,
+  "human_schema_validations": 2,
+  "rejected_schema_mappings": 0,
+  "declarative_derived_attributes": 2,
+  "output_rows": 630,
+  "output_columns": 13,
+  "entity_precision": 1.0,
+  "entity_recall": 0.958015,
+  "entity_f1_score": 0.978558
+}

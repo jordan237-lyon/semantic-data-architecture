@@ -1,0 +1,37 @@
+{
+  "phase": "before_adaptation",
+  "new_source": {
+    "source": "loyalty",
+    "rows": 80,
+    "columns": [
+      "member_id",
+      "display_name",
+      "email_address",
+      "market",
+      "joined_on"
+    ],
+    "known_to_initial_pipelines": false,
+    "granularity": "one row per loyalty member"
+  },
+  "baseline": {
+    "pipeline_status": "success_but_source_ignored",
+    "loyalty_rows_integrated": 0,
+    "source_coverage": 0.0,
+    "reason": "The source list is hard-coded to CRM, support and finance."
+  },
+  "semantic": {
+    "pipeline_status": "success_but_source_ignored",
+    "loyalty_rows_integrated": 0,
+    "source_coverage": 0.0,
+    "reason": "The pipeline orchestration is also hard-coded to three sources.",
+    "standalone_schema_analysis": {
+      "columns_profiled": 5,
+      "correct_best_candidates": 4,
+      "schema_precision": 0.8,
+      "accepted": 1,
+      "review": 4,
+      "rejected": 0
+    }
+  },
+  "conclusion": "Neither pipeline discovers the fourth source yet; the semantic matcher can still analyze its schema independently."
+}

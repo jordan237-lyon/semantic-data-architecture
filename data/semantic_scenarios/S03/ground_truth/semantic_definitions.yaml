@@ -1,0 +1,15 @@
+scenario: S03
+concept: RevenueSnapshot
+grain:
+- customer
+- calendar_month
+unit: EUR
+attributes:
+  gross_revenue:
+    definition: Chiffre d'affaires avant déduction des taxes et remboursements.
+    source: revenue_gross.gross_revenue
+  net_revenue:
+    definition: Chiffre d'affaires après déduction des taxes et remboursements.
+    source: revenue_net.net_revenue
+interchangeable: false
+expected_a3_decision: accepted

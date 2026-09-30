@@ -1,0 +1,2 @@
+source_column,semantic_attribute,decision,confidence,ticket_share,customer_share,reason
+customer_id,Customer.identifier,accepted,declared,0.7,0.3,Mapping déclaratif colonne-vers-attribut

@@ -1,0 +1,6 @@
+source,source_concept,source_column,inferred_type,detected_format,semantic_attribute,name_score,type_score,value_score,total_score,second_candidate,second_score,score_margin,decision,decision_reason
+loyalty,,member_id,string,,Customer.identifier,0.6,1.0,0.97,0.791,SupportTicket.identifier,0.713222,0.077778,review,Validation requise : score 0.791 < 0.850 ; marge 0.078 < 0.100
+loyalty,,display_name,string,,Customer.full_name,0.666667,1.0,0.97,0.824333,Customer.country,0.741,0.083333,review,Validation requise : score 0.824 < 0.850 ; marge 0.083 < 0.100
+loyalty,,email_address,string,email,Customer.email,1.0,1.0,0.97,0.991,Customer.full_name,0.672818,0.318182,accepted,Score et marge suffisants
+loyalty,,market,string,country_code,SupportTicket.customer_reference,0.333333,1.0,0.97,0.657667,Customer.full_name,0.648895,0.008772,review,Validation requise : score 0.658 < 0.850 ; marge 0.009 < 0.100
+loyalty,,joined_on,date,date,Customer.created_at,0.315789,1.0,0.97,0.648895,SupportTicket.created_at,0.648895,0.0,review,Validation requise : score 0.649 < 0.850 ; marge 0.000 < 0.100

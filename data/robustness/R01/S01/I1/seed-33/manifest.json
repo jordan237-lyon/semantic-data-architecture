@@ -1,0 +1,18 @@
+{
+  "architectures_executed": [],
+  "campaign": "R01",
+  "intensity": "I1",
+  "noise_rate": 0.05,
+  "parameters": {
+    "vocabulary_overlap": 0.5
+  },
+  "scenario": "S01",
+  "seed": 33,
+  "sha256": {
+    "ground_truth/schema_mapping.csv": "051b4ef24782acf355aeae85e1e681cd2e31829cc18a49bd49cfbc367a9b20aa",
+    "ground_truth/semantic_definitions.yaml": "6716dc96b8971503e5ba699cc8ea1b9e152c5fe354ec3650e9e4cff258663b43",
+    "raw/crm.csv": "78c45c6d232ab5f7077d40338ffb15510cb6caed2400d3433ec45c31987e44d0",
+    "raw/support.csv": "0bce11c50cca371a6d75aaedd35c02787f4e0656258c6b42ae6ff2347f68331c"
+  },
+  "size": 100
+}

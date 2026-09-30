@@ -1,0 +1,41 @@
+{
+  "before_adaptation": {
+    "decision": "accepted_static_mapping",
+    "value_quality": {
+      "rows": 100,
+      "correct_rows": 50,
+      "incorrect_rows": 50,
+      "unmapped_rows": 0,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1_score": 0.5
+    },
+    "safe_handling": false,
+    "silent_wrong_acceptances": 50,
+    "performance": {
+      "wall_time_seconds": 0.000236,
+      "cpu_time_seconds": 0.000236,
+      "peak_python_memory_mb": 0.010766
+    }
+  },
+  "after_adaptation": {
+    "decision": "accepted_conditional_split",
+    "value_quality": {
+      "rows": 100,
+      "correct_rows": 100,
+      "incorrect_rows": 0,
+      "unmapped_rows": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "safe_handling": true,
+    "silent_wrong_acceptances": 0,
+    "adaptation_actions": 3,
+    "performance": {
+      "wall_time_seconds": 0.000261,
+      "cpu_time_seconds": 0.000261,
+      "peak_python_memory_mb": 0.010781
+    }
+  }
+}

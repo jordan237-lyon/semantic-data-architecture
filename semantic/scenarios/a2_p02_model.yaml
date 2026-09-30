@@ -1,0 +1,13 @@
+extends: ../a2_model.yaml
+
+# Adaptation déclarative mesurée pour P02 : sept équivalences de valeurs.
+overrides:
+  normalization_catalog:
+    country_dictionary:
+      france: France
+      cameroon: Cameroon
+      germany: Germany
+      spain: Spain
+      belgium: Belgium
+      canada: Canada
+      italy: Italy

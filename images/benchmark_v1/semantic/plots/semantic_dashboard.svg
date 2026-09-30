@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-labelledby="title desc">
+<title id="title">Matching sémantique — synthèse des décisions</title>
+<desc id="desc">Tableau de bord montrant dix-neuf colonnes, dix-sept acceptations et deux validations humaines.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#667085}.heading{font-size:17px;font-weight:700}.label{font-size:13px;font-weight:600}.small{font-size:12px;fill:#667085}.value{font-size:13px;font-weight:700}.big{font-size:30px;font-weight:700}</style>
+<text x="550" y="38" text-anchor="middle" class="title">Matching sémantique — synthèse des décisions</text>
+<text x="550" y="64" text-anchor="middle" class="subtitle">Politique fondée sur le score du meilleur candidat et sa marge</text>
+<text x="165" y="128" text-anchor="middle" class="big">19</text>
+<text x="165" y="151" text-anchor="middle" class="small">colonnes analysées</text>
+<text x="425" y="128" text-anchor="middle" class="big">17</text>
+<text x="425" y="151" text-anchor="middle" class="small">acceptées automatiquement</text>
+<text x="685" y="128" text-anchor="middle" class="big">2</text>
+<text x="685" y="151" text-anchor="middle" class="small">validations humaines</text>
+<text x="945" y="128" text-anchor="middle" class="big">89.47 %</text>
+<text x="945" y="151" text-anchor="middle" class="small">taux d’automatisation</text>
+<text x="550" y="208" text-anchor="middle" class="heading">Répartition globale</text>
+<rect x="100.0" y="232" width="805.3" height="38" fill="#16a34a"/>
+<text x="502.6" y="257" text-anchor="middle" font-size="13" font-weight="700" fill="white">17</text>
+<rect x="905.3" y="232" width="94.7" height="38" fill="#f59e0b"/>
+<text x="952.6" y="257" text-anchor="middle" font-size="13" font-weight="700" fill="white">2</text>
+<rect x="350" y="288" width="15" height="15" fill="#16a34a"/>
+<text x="372" y="300" class="label">Accepté</text>
+<rect x="505" y="288" width="15" height="15" fill="#f59e0b"/>
+<text x="527" y="300" class="label">À valider</text>
+<rect x="660" y="288" width="15" height="15" fill="#dc2626"/>
+<text x="682" y="300" class="label">Rejeté</text>
+<text x="315" y="355" text-anchor="middle" class="heading">Décisions par source</text>
+<text x="130" y="400" class="label">CRM</text>
+<rect x="220.0" y="378" width="300.0" height="30" fill="#16a34a"/>
+<text x="370.0" y="399" text-anchor="middle" font-size="12" font-weight="700" fill="white">5</text>
+<rect x="520.0" y="378" width="60.0" height="30" fill="#f59e0b"/>
+<text x="550.0" y="399" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text>
+<text x="130" y="462" class="label">SUPPORT</text>
+<rect x="220.0" y="440" width="300.0" height="30" fill="#16a34a"/>
+<text x="370.0" y="461" text-anchor="middle" font-size="12" font-weight="700" fill="white">5</text>
+<rect x="520.0" y="440" width="60.0" height="30" fill="#f59e0b"/>
+<text x="550.0" y="461" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text>
+<text x="130" y="524" class="label">FINANCE</text>
+<rect x="220.0" y="502" width="360.0" height="30" fill="#16a34a"/>
+<text x="400.0" y="523" text-anchor="middle" font-size="12" font-weight="700" fill="white">7</text>
+<text x="825" y="355" text-anchor="middle" class="heading">Cas nécessitant une validation</text>
+<rect x="640" y="380" width="370" height="180" fill="#fef3c7"/>
+<text x="665" y="420" class="label">crm.created_at</text>
+<text x="665" y="442" class="small">→ Customer.created_at · score 1.000 · marge 0.009</text>
+<text x="665" y="485" class="label">support.created_at</text>
+<text x="665" y="507" class="small">→ SupportTicket.created_at · score 1.000 · marge 0.009</text>
+<line x1="80" y1="605" x2="1020" y2="605" stroke="#d8dee9"/>
+<text x="550" y="647" text-anchor="middle" class="heading">Lecture principale</text>
+<text x="550" y="677" text-anchor="middle" class="label">Le moteur automatise 17 décisions, mais isole les deux dates ambiguës au lieu de décider silencieusement.</text>
+</svg>

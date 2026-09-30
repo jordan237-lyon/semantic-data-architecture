@@ -1,0 +1,37 @@
+extends: ../a2_model.yaml
+
+overrides:
+  canonical_model:
+    add_attributes:
+      transaction_amount:
+        type: decimal
+        nullable: true
+        output: false
+  sources:
+    finance:
+      remove_mappings: [amount]
+      add_mappings:
+        gross_amount:
+          target: transaction_amount
+          transformations: [parse_decimal]
+      aggregation:
+        remove_rules: [total_amount]
+        add_rules:
+          transaction_amount: sum
+  add_sources:
+    sales:
+      entity_identifier: account_reference
+      row_identifier: sale_id
+      granularity: transaction
+      mappings:
+        sale_id: {target: customer_id, use: row_identifier}
+        account_reference: {target: customer_id}
+        customer_email: {target: email, transformations: [trim, lowercase]}
+        turnover_value: {target: transaction_amount, transformations: [parse_decimal]}
+        sale_date: {target: created_at, transformations: [parse_date]}
+      aggregation:
+        group_by: account_reference
+        rules:
+          email: first_non_null
+          created_at: min
+          transaction_amount: sum

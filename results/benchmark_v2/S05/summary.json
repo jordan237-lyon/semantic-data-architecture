@@ -1,0 +1,87 @@
+{
+  "scenario": "S05",
+  "dataset": {
+    "rows": 100,
+    "ticket_identifier_share": 0.7,
+    "customer_identifier_share": 0.3,
+    "single_mapping_valid": false
+  },
+  "architectures": {
+    "A0": {
+      "value_quality": {
+        "rows": 100,
+        "correct_rows": 100,
+        "incorrect_rows": 0,
+        "unmapped_rows": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "safe_handling": true,
+      "silent_wrong_acceptances": 0,
+      "human_reviews_required": 0,
+      "adaptation_actions": 3,
+      "execution_time_seconds": 0.001846
+    },
+    "A1": {
+      "value_quality": {
+        "rows": 100,
+        "correct_rows": 30,
+        "incorrect_rows": 70,
+        "unmapped_rows": 0,
+        "precision": 0.3,
+        "recall": 0.3,
+        "f1_score": 0.3
+      },
+      "technical_decision": "mapped",
+      "safe_handling": false,
+      "silent_wrong_acceptances": 70,
+      "human_reviews_required": 0,
+      "adaptation_actions": 0,
+      "execution_time_seconds": 0.002567
+    },
+    "A2": {
+      "before_adaptation": {
+        "value_quality": {
+          "rows": 100,
+          "correct_rows": 30,
+          "incorrect_rows": 70,
+          "unmapped_rows": 0,
+          "precision": 0.3,
+          "recall": 0.3,
+          "f1_score": 0.3
+        },
+        "safe_handling": false,
+        "silent_wrong_acceptances": 70,
+        "adaptation_actions": 0
+      },
+      "after_adaptation": {
+        "value_quality": {
+          "rows": 100,
+          "correct_rows": 100,
+          "incorrect_rows": 0,
+          "unmapped_rows": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "safe_handling": true,
+        "silent_wrong_acceptances": 0,
+        "adaptation_actions": 3
+      },
+      "execution_time_seconds": 0.014252
+    },
+    "A3": {
+      "raw_matcher_candidate": "Customer.identifier",
+      "raw_matcher_decision": "review",
+      "raw_matcher_score": 1.0,
+      "raw_matcher_margin": 0.009,
+      "final_decision": "review",
+      "safe_handling": true,
+      "silent_wrong_acceptances": 0,
+      "human_reviews_required": 1,
+      "adaptation_actions": 0,
+      "execution_time_seconds": 0.023041
+    }
+  }
+}

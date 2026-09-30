@@ -1,0 +1,22 @@
+{
+  "matching_policy": {
+    "weights": {
+      "name": 0.5,
+      "type": 0.2,
+      "value": 0.3
+    },
+    "thresholds": {
+      "auto_accept_score": 0.85,
+      "auto_accept_margin": 0.1,
+      "review_score": 0.6
+    }
+  },
+  "total_columns": 19,
+  "accepted_mappings": 17,
+  "mappings_requiring_review": 2,
+  "rejected_mappings": 0,
+  "human_interventions_required": 2,
+  "automation_rate": 0.894737,
+  "average_total_score": 0.997158,
+  "average_score_margin": 0.194825
+}

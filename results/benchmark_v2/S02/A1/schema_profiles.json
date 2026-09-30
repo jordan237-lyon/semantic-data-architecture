@@ -1,0 +1,410 @@
+[
+  {
+    "column": "client_id",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "CRM0001",
+      "CRM0002",
+      "CRM0003",
+      "CRM0004",
+      "CRM0005"
+    ],
+    "source": "crm"
+  },
+  {
+    "column": "first_name",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.166667,
+    "sample_values": [
+      "Jean",
+      "Marie",
+      "Paul",
+      "Sophie",
+      "Lucas"
+    ],
+    "source": "crm"
+  },
+  {
+    "column": "last_name",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.05,
+    "sample_values": [
+      "Dupont",
+      "Martin",
+      "Bernard",
+      "Robert",
+      "Richard"
+    ],
+    "source": "crm"
+  },
+  {
+    "column": "email",
+    "inferred_type": "string",
+    "detected_format": "email",
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "jean.dupont.1@example.com",
+      "marie.dupont.2@mail.com",
+      "paul.dupont.3@demo.org",
+      "sophie.dupont.4@example.com",
+      "lucas.dupont.5@mail.com"
+    ],
+    "source": "crm"
+  },
+  {
+    "column": "country",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.058333,
+    "sample_values": [
+      "France",
+      "Cameroon",
+      "Germany",
+      "Spain",
+      "Belgium"
+    ],
+    "source": "crm"
+  },
+  {
+    "column": "created_at",
+    "inferred_type": "date",
+    "detected_format": "date",
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "2025-01-01",
+      "2025-01-02",
+      "2025-01-03",
+      "2025-01-04",
+      "2025-01-05"
+    ],
+    "source": "crm"
+  },
+  {
+    "column": "transaction_id",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 250,
+    "non_null_count": 250,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "TX-000001",
+      "TX-000002",
+      "TX-000003",
+      "TX-000004",
+      "TX-000005"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "account_id",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 250,
+    "non_null_count": 250,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.4,
+    "sample_values": [
+      "ACC0021",
+      "ACC0022",
+      "ACC0023",
+      "ACC0024",
+      "ACC0025"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "customer_name",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 250,
+    "non_null_count": 250,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.4,
+    "sample_values": [
+      "Jean Martin",
+      "Marie Martin",
+      "Paul Martin",
+      "Sophie Martin",
+      "Lucas Martin"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "contact_email",
+    "inferred_type": "string",
+    "detected_format": "email",
+    "row_count": 250,
+    "non_null_count": 246,
+    "null_ratio": 0.016,
+    "unique_ratio": 0.394309,
+    "sample_values": [
+      "JEAN.MARTIN.21@DEMO.ORG",
+      "marie.martin.22@example.com",
+      "paul.martin.23@mail.com",
+      "sophie.martin.24@demo.org",
+      "lucas.martin.25@example.com"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "country_code",
+    "inferred_type": "string",
+    "detected_format": "country_code",
+    "row_count": 250,
+    "non_null_count": 250,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.028,
+    "sample_values": [
+      "IT",
+      "FR",
+      "CM",
+      "DE",
+      "ES"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "gross_amount",
+    "inferred_type": "decimal",
+    "detected_format": null,
+    "row_count": 250,
+    "non_null_count": 250,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.588,
+    "sample_values": [
+      "3242.22",
+      "1688.5",
+      "1171.46",
+      "1171.45",
+      "912.94"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "transaction_date",
+    "inferred_type": "date",
+    "detected_format": "date",
+    "row_count": 250,
+    "non_null_count": 250,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.412,
+    "sample_values": [
+      "2025-02-03",
+      "2025-02-04",
+      "2025-02-05",
+      "2025-02-06",
+      "2025-02-07"
+    ],
+    "source": "finance"
+  },
+  {
+    "column": "sale_id",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "SALE0001",
+      "SALE0002",
+      "SALE0003",
+      "SALE0004",
+      "SALE0005"
+    ],
+    "source": "sales"
+  },
+  {
+    "column": "account_reference",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.666667,
+    "sample_values": [
+      "SALACC0001",
+      "SALACC0002",
+      "SALACC0003",
+      "SALACC0004",
+      "SALACC0005"
+    ],
+    "source": "sales"
+  },
+  {
+    "column": "customer_email",
+    "inferred_type": "string",
+    "detected_format": "email",
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.666667,
+    "sample_values": [
+      "jean.dupont.1@example.com",
+      "MARIE.DUPONT.2@MAIL.COM",
+      "paul.dupont.3@demo.org",
+      "SOPHIE.DUPONT.4@EXAMPLE.COM",
+      "lucas.dupont.5@mail.com"
+    ],
+    "source": "sales"
+  },
+  {
+    "column": "turnover_value",
+    "inferred_type": "decimal",
+    "detected_format": null,
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "67.25",
+      "84.25",
+      "101.25",
+      "118.25",
+      "135.25"
+    ],
+    "source": "sales"
+  },
+  {
+    "column": "sale_date",
+    "inferred_type": "date",
+    "detected_format": "date",
+    "row_count": 120,
+    "non_null_count": 120,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.233333,
+    "sample_values": [
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "source": "sales"
+  },
+  {
+    "column": "ticket_id",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 495,
+    "non_null_count": 495,
+    "null_ratio": 0.0,
+    "unique_ratio": 1.0,
+    "sample_values": [
+      "TICKET-000001",
+      "TICKET-000002",
+      "TICKET-000003",
+      "TICKET-000004",
+      "TICKET-000005"
+    ],
+    "source": "support"
+  },
+  {
+    "column": "customer_ref",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 495,
+    "non_null_count": 495,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.181818,
+    "sample_values": [
+      "SUP-0002",
+      "SUP-0003",
+      "SUP-0004",
+      "SUP-0005",
+      "SUP-0006"
+    ],
+    "source": "support"
+  },
+  {
+    "column": "full_name",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 495,
+    "non_null_count": 495,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.181818,
+    "sample_values": [
+      "MARIE DUPONT",
+      "PAUL DUPONT",
+      "SOPHIE DUPONT",
+      "LUCAS DUPONT",
+      "EMMA DUPONT"
+    ],
+    "source": "support"
+  },
+  {
+    "column": "mail",
+    "inferred_type": "string",
+    "detected_format": "email",
+    "row_count": 495,
+    "non_null_count": 470,
+    "null_ratio": 0.050505,
+    "unique_ratio": 0.185106,
+    "sample_values": [
+      "marie.dupont.2@mail.com",
+      "paul.dupont.3@demo.org",
+      "sophie.dupont.4@example.com",
+      "lucas.dupont.5@mail.com",
+      "emma.dupont.6@demo.org"
+    ],
+    "source": "support"
+  },
+  {
+    "column": "country_name",
+    "inferred_type": "string",
+    "detected_format": null,
+    "row_count": 495,
+    "non_null_count": 495,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.014141,
+    "sample_values": [
+      "Cameroon",
+      "Germany",
+      "Spain",
+      "Belgium",
+      "Canada"
+    ],
+    "source": "support"
+  },
+  {
+    "column": "created_at",
+    "inferred_type": "date",
+    "detected_format": "date",
+    "row_count": 495,
+    "non_null_count": 495,
+    "null_ratio": 0.0,
+    "unique_ratio": 0.212121,
+    "sample_values": [
+      "2025-02-02",
+      "2025-02-03",
+      "2025-02-04",
+      "2025-02-05",
+      "2025-02-06"
+    ],
+    "source": "support"
+  }
+]

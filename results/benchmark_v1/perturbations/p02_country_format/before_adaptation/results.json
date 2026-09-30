@@ -1,0 +1,71 @@
+{
+  "scenario": "p02_country_format",
+  "description": "Les codes pays Finance deviennent des libellés en minuscules.",
+  "change": {
+    "source": "finance",
+    "column": "country_code",
+    "before_examples": [
+      "BE",
+      "CA",
+      "CM",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
+    ],
+    "after_examples": [
+      "belgium",
+      "cameroon",
+      "canada",
+      "france",
+      "germany",
+      "italy",
+      "spain"
+    ],
+    "schema_modified": false,
+    "values_modified": true
+  },
+  "baseline": {
+    "status": "success",
+    "code_changes_applied": 0,
+    "value_quality": {
+      "canonical_values": 0,
+      "evaluated_finance_accounts": 100,
+      "country_conformity": 0.0,
+      "observed_formats": [
+        "belgium",
+        "cameroon",
+        "canada",
+        "france",
+        "germany",
+        "italy",
+        "spain"
+      ]
+    }
+  },
+  "semantic": {
+    "status": "success",
+    "code_changes_applied": 0,
+    "incremental_human_validations": 0,
+    "value_quality": {
+      "canonical_values": 0,
+      "evaluated_finance_accounts": 100,
+      "country_conformity": 0.0,
+      "observed_formats": [
+        "belgium",
+        "cameroon",
+        "canada",
+        "france",
+        "germany",
+        "italy",
+        "spain"
+      ]
+    },
+    "entity_quality": {
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    }
+  },
+  "interpretation": "Une exécution réussie ne garantit pas la conformité des valeurs canoniques."
+}

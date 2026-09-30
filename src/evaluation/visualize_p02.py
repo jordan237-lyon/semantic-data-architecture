@@ -1,0 +1,50 @@
+"""Generate explanatory SVG plots for perturbation P02."""
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[2]
+RESULTS = ROOT / "results" / "perturbations" / "p02_country_format"
+PLOTS = RESULTS / "plots"
+
+
+def dashboard(result, before):
+    baseline = 100 * result["baseline"]["value_quality"]["country_conformity"]
+    semantic = 100 * result["semantic"]["value_quality"]["country_conformity"]
+    baseline_before = 100 * before["baseline"]["value_quality"]["country_conformity"]
+    semantic_before = 100 * before["semantic"]["value_quality"]["country_conformity"]
+    f1 = result["semantic"]["entity_quality"]["f1_score"]
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="650" viewBox="0 0 1050 650" role="img" aria-labelledby="t d">
+<title id="t">P02 — changement du format pays</title><desc id="d">Comparaison entre succès technique, qualité du matching et conformité des pays.</desc>
+<rect width="1050" height="650" fill="white"/><style>text{{font-family:Arial,sans-serif;fill:#172033}}.title{{font-size:25px;font-weight:700}}.sub{{font-size:14px;fill:#667085}}.head{{font-size:18px;font-weight:700}}.big{{font-size:30px;font-weight:700}}.lab{{font-size:13px;font-weight:600}}</style>
+<text x="525" y="42" text-anchor="middle" class="title">P02 — conformité avant et après adaptation</text>
+<text x="525" y="70" text-anchor="middle" class="sub">Finance : FR → france · IT → italy · aucune colonne renommée</text>
+<text x="265" y="135" text-anchor="middle" class="head">Baseline</text><text x="785" y="135" text-anchor="middle" class="head">Sémantique</text>
+<rect x="95" y="165" width="340" height="95" fill="#dcfce7"/><rect x="615" y="165" width="340" height="95" fill="#dcfce7"/>
+<text x="265" y="210" text-anchor="middle" class="big" fill="#16a34a">SUCCÈS</text><text x="785" y="210" text-anchor="middle" class="big" fill="#16a34a">SUCCÈS</text>
+<text x="265" y="240" text-anchor="middle" class="sub">aucune erreur technique</text><text x="785" y="240" text-anchor="middle" class="sub">aucune intervention</text>
+<text x="525" y="310" text-anchor="middle" class="head">Conformité au format canonique des pays</text>
+<text x="180" y="365" text-anchor="end" class="lab">Baseline avant</text><rect x="210" y="340" width="{baseline_before * 6.8:.1f}" height="28" fill="#fecaca"/><text x="225" y="361" class="lab">{baseline_before:.1f} %</text>
+<text x="180" y="405" text-anchor="end" class="lab">Baseline après</text><rect x="210" y="380" width="{baseline * 6.8:.1f}" height="28" fill="#dc2626"/><text x="850" y="401" class="lab" fill="white">{baseline:.1f} %</text>
+<text x="180" y="445" text-anchor="end" class="lab">Sémantique avant</text><rect x="210" y="420" width="{semantic_before * 6.8:.1f}" height="28" fill="#fde68a"/><text x="225" y="441" class="lab">{semantic_before:.1f} %</text>
+<text x="180" y="485" text-anchor="end" class="lab">Sémantique après</text><rect x="210" y="460" width="{semantic * 6.8:.1f}" height="28" fill="#16a34a"/><text x="850" y="481" class="lab" fill="white">{semantic:.1f} %</text>
+<line x1="210" y1="485" x2="890" y2="485" stroke="#d8dee9"/><text x="210" y="510" text-anchor="middle" class="sub">0 %</text><text x="890" y="510" text-anchor="middle" class="sub">100 %</text>
+<text x="525" y="560" text-anchor="middle" class="head">Matching d’entités inchangé : F1 = {f1:.3f}</text>
+<text x="525" y="595" text-anchor="middle" class="lab">Baseline : règle Python · Sémantique : 7 entrées déclaratives YAML · aucune validation humaine</text>
+<text x="525" y="622" text-anchor="middle" class="sub">Les deux retrouvent 100 %, mais la nature de leur adaptation diffère.</text></svg>'''
+
+
+def run():
+    result = json.loads((RESULTS / "results.json").read_text(encoding="utf-8"))
+    before = json.loads(
+        (RESULTS / "before_adaptation" / "results.json").read_text(encoding="utf-8")
+    )
+    PLOTS.mkdir(parents=True, exist_ok=True)
+    path = PLOTS / "p02_dashboard.svg"
+    path.write_text(dashboard(result, before), encoding="utf-8")
+    print(path)
+
+
+if __name__ == "__main__":
+    run()

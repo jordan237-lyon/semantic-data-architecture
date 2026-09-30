@@ -1,0 +1,12 @@
+relation,error_type,left_id,right_id
+crm_support,false_negative,CRM0015,SUP-0015
+crm_support,false_negative,CRM0048,SUP-0048
+crm_support,false_negative,CRM0084,SUP-0084
+crm_finance,false_negative,CRM0029,ACC0029
+crm_finance,false_negative,CRM0062,ACC0062
+crm_finance,false_negative,CRM0093,ACC0093
+support_finance,false_negative,SUP-0029,ACC0029
+support_finance,false_negative,SUP-0048,ACC0048
+support_finance,false_negative,SUP-0062,ACC0062
+support_finance,false_negative,SUP-0084,ACC0084
+support_finance,false_negative,SUP-0093,ACC0093

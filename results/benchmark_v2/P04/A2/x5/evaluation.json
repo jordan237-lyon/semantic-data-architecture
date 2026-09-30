@@ -1,0 +1,42 @@
+{
+  "crm_support": {
+    "expected_pairs": 450,
+    "predicted_pairs": 435,
+    "true_positives": 435,
+    "false_positives": 0,
+    "false_negatives": 15,
+    "precision": 1.0,
+    "recall": 0.966667,
+    "f1_score": 0.983051
+  },
+  "crm_finance": {
+    "expected_pairs": 500,
+    "predicted_pairs": 485,
+    "true_positives": 485,
+    "false_positives": 0,
+    "false_negatives": 15,
+    "precision": 1.0,
+    "recall": 0.97,
+    "f1_score": 0.984772
+  },
+  "support_finance": {
+    "expected_pairs": 360,
+    "predicted_pairs": 335,
+    "true_positives": 335,
+    "false_positives": 0,
+    "false_negatives": 25,
+    "precision": 1.0,
+    "recall": 0.930556,
+    "f1_score": 0.964029
+  },
+  "overall": {
+    "expected_pairs": 1310,
+    "predicted_pairs": 1255,
+    "true_positives": 1255,
+    "false_positives": 0,
+    "false_negatives": 55,
+    "precision": 1.0,
+    "recall": 0.958015,
+    "f1_score": 0.978558
+  }
+}

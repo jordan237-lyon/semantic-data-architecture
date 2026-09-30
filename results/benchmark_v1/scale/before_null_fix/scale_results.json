@@ -1,0 +1,80 @@
+{
+  "protocol": {
+    "scale_factors": [
+      1,
+      5,
+      10
+    ],
+    "warmup_runs_per_pipeline_and_scale": 1,
+    "measured_runs_per_pipeline_and_scale": 5,
+    "memory_scope": "Python allocations measured by tracemalloc"
+  },
+  "results": [
+    {
+      "scale_factor": 1,
+      "pipeline": "baseline",
+      "input_rows": 865,
+      "output_rows": 129,
+      "median_wall_time_seconds": 0.027955667,
+      "median_python_peak_memory_bytes": 483465,
+      "precision": 0.965385,
+      "recall": 0.958015,
+      "f1_score": 0.961686
+    },
+    {
+      "scale_factor": 1,
+      "pipeline": "semantic",
+      "input_rows": 865,
+      "output_rows": 126,
+      "median_wall_time_seconds": 0.160700875,
+      "median_python_peak_memory_bytes": 722476,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 5,
+      "pipeline": "baseline",
+      "input_rows": 4325,
+      "output_rows": 825,
+      "median_wall_time_seconds": 0.057079333,
+      "median_python_peak_memory_bytes": 1535963,
+      "precision": 0.847973,
+      "recall": 0.958015,
+      "f1_score": 0.899642
+    },
+    {
+      "scale_factor": 5,
+      "pipeline": "semantic",
+      "input_rows": 4325,
+      "output_rows": 630,
+      "median_wall_time_seconds": 0.294498667,
+      "median_python_peak_memory_bytes": 2073291,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    {
+      "scale_factor": 10,
+      "pipeline": "baseline",
+      "input_rows": 8650,
+      "output_rows": 2100,
+      "median_wall_time_seconds": 0.094534375,
+      "median_python_peak_memory_bytes": 3054415,
+      "precision": 0.73607,
+      "recall": 0.958015,
+      "f1_score": 0.832504
+    },
+    {
+      "scale_factor": 10,
+      "pipeline": "semantic",
+      "input_rows": 8650,
+      "output_rows": 1260,
+      "median_wall_time_seconds": 0.459547584,
+      "median_python_peak_memory_bytes": 3842611,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    }
+  ]
+}

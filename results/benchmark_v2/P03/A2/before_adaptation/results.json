@@ -1,0 +1,21 @@
+{
+  "scenario": "P03",
+  "architecture": "A2_declarative_semantic",
+  "phase": "before_adaptation",
+  "status": "failure",
+  "missing_declared_columns": [
+    "first_name",
+    "last_name"
+  ],
+  "new_undeclared_column": "customer_name",
+  "error": "Source crm : colonnes déclarées absentes : first_name, last_name",
+  "output_produced": false,
+  "required_adaptation": {
+    "remove_mappings": ["first_name", "last_name"],
+    "add_mapping": {
+      "customer_name": {"target": "full_name"}
+    },
+    "remove_derived_attribute": "full_name",
+    "pipeline_or_transformer_python_change_required": false
+  }
+}

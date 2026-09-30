@@ -1,0 +1,7 @@
+architecture: A1
+scenario: S01
+additional_business_knowledge: false
+expected_handling:
+  crm.status: review
+  support.status: review
+reason: A1 reçoit uniquement les noms, types, formats et distributions.

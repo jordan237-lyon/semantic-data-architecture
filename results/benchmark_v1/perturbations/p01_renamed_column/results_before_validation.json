@@ -1,0 +1,41 @@
+{
+  "scenario": "p01_renamed_column",
+  "description": "Renommage isolé de la colonne e-mail du support.",
+  "change": {
+    "source": "support",
+    "before": "mail",
+    "after": "customer_email_address",
+    "values_modified": false
+  },
+  "baseline": {
+    "status": "failed",
+    "code_changes_applied": 0,
+    "adaptation_required": true,
+    "error": "KeyError: 'mail'"
+  },
+  "semantic": {
+    "status": "requires_review",
+    "code_changes_applied": 0,
+    "adaptation_required": true,
+    "perturbed_column_mapping": {
+      "source": "support",
+      "source_concept": "SupportTicket",
+      "source_column": "customer_email_address",
+      "inferred_type": "string",
+      "detected_format": "email",
+      "semantic_attribute": "Customer.email",
+      "name_score": "0.742857",
+      "type_score": "1.0",
+      "value_score": "0.97",
+      "total_score": "0.862429",
+      "second_candidate": "SupportTicket.customer_reference",
+      "second_score": "0.823529",
+      "score_margin": "0.0389",
+      "decision": "review",
+      "decision_reason": "Validation requise : marge 0.039 < 0.100"
+    },
+    "mapping_matches_ground_truth": true,
+    "incremental_human_validations": 1,
+    "error": "ValueError: Mappings encore en attente de validation : [('support', 'customer_email_address')]"
+  }
+}

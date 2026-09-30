@@ -1,0 +1,21 @@
+architecture: A0
+scenario: S03
+sources:
+  revenue_gross:
+    mappings:
+      account_id: RevenueSnapshot.account_reference
+      customer_email: Customer.email
+      period: RevenueSnapshot.period
+      gross_revenue: RevenueSnapshot.gross_revenue
+      currency: RevenueSnapshot.currency
+  revenue_net:
+    mappings:
+      account_id: RevenueSnapshot.account_reference
+      customer_email: Customer.email
+      period: RevenueSnapshot.period
+      net_revenue: RevenueSnapshot.net_revenue
+      currency: RevenueSnapshot.currency
+rules:
+  - gross_revenue inclut les taxes et les remboursements non déduits
+  - net_revenue est calculé après taxes et remboursements
+  - les deux mesures restent au grain client-mois

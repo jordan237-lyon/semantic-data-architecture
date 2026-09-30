@@ -1,0 +1,12 @@
+{
+  "raw_matcher_candidate": "Customer.identifier",
+  "raw_matcher_decision": "review",
+  "raw_matcher_score": 1.0,
+  "raw_matcher_margin": 0.009,
+  "final_decision": "review",
+  "safe_handling": true,
+  "silent_wrong_acceptances": 0,
+  "human_reviews_required": 1,
+  "adaptation_actions": 0,
+  "execution_time_seconds": 0.023041
+}

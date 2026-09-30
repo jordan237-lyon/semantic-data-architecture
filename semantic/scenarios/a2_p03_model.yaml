@@ -1,0 +1,14 @@
+extends: ../a2_model.yaml
+
+# Adaptation déclarative mesurée pour P03 : le nom composé devient un champ direct.
+overrides:
+  sources:
+    crm:
+      remove_mappings:
+        - first_name
+        - last_name
+      add_mappings:
+        customer_name:
+          target: full_name
+      remove_derived_attributes:
+        - full_name

@@ -1,0 +1,4 @@
+scenario: R01-S05
+ticket_share: 0.1
+single_mapping_valid: false
+expected_a3_decision: review

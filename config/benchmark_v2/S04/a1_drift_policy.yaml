@@ -1,0 +1,15 @@
+architecture: A1
+scenario: S04
+knowledge_scope: technical_metadata_only
+comparison:
+  column: active
+  time_column: snapshot_date
+  baseline_end: 2025-06-30
+  current_start: 2025-07-01
+  statistic: true_rate
+  absolute_change_threshold: 0.10
+expected_capability:
+  distribution_drift_detection: true
+  business_definition_identification: false
+  decision: review
+

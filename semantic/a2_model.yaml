@@ -1,0 +1,99 @@
+version: "1.0"
+
+architecture:
+  level: A2
+  mode: declarative
+  automatic_matching: false
+  confidence_scoring: false
+
+canonical_model:
+  entity: customer
+  attributes:
+    customer_id: {type: string, nullable: false}
+    first_name: {type: string, nullable: true, output: false}
+    last_name: {type: string, nullable: true, output: false}
+    full_name: {type: string, nullable: true}
+    email:
+      type: string
+      nullable: true
+      normalization: [trim, lowercase]
+    country:
+      type: string
+      nullable: true
+      normalization: [country_dictionary]
+    created_at: {type: date, nullable: true}
+    ticket_count: {type: integer, nullable: true}
+    total_amount: {type: decimal, nullable: true}
+
+normalization_catalog:
+  country_dictionary:
+    FR: France
+    CM: Cameroon
+    DE: Germany
+    ES: Spain
+    BE: Belgium
+    CA: Canada
+    IT: Italy
+
+sources:
+  crm:
+    entity_identifier: client_id
+    granularity: customer
+    mappings:
+      client_id: {target: customer_id}
+      first_name: {target: first_name}
+      last_name: {target: last_name}
+      email: {target: email, transformations: [trim, lowercase]}
+      country: {target: country, transformations: [country_dictionary]}
+      created_at: {target: created_at, transformations: [parse_date]}
+    derived_attributes:
+      full_name:
+        operation: concatenate
+        inputs: [first_name, last_name]
+        separator: " "
+
+  support:
+    entity_identifier: customer_ref
+    row_identifier: ticket_id
+    granularity: ticket
+    mappings:
+      ticket_id: {target: ticket_count, use: row_count}
+      customer_ref: {target: customer_id}
+      full_name: {target: full_name}
+      mail: {target: email, transformations: [trim, lowercase]}
+      country_name: {target: country, transformations: [country_dictionary]}
+      created_at: {target: created_at, transformations: [parse_date]}
+    aggregation:
+      group_by: customer_ref
+      rules:
+        full_name: first_non_null
+        email: first_non_null
+        country: first_non_null
+        created_at: min
+        ticket_count: count
+
+  finance:
+    entity_identifier: account_id
+    row_identifier: transaction_id
+    granularity: transaction
+    mappings:
+      transaction_id: {target: customer_id, use: row_identifier}
+      account_id: {target: customer_id}
+      customer_name: {target: full_name}
+      contact_email: {target: email, transformations: [trim, lowercase]}
+      country_code: {target: country, transformations: [country_dictionary]}
+      amount: {target: total_amount, transformations: [parse_decimal]}
+      transaction_date: {target: created_at, transformations: [parse_date]}
+    aggregation:
+      group_by: account_id
+      rules:
+        full_name: first_non_null
+        email: first_non_null
+        country: first_non_null
+        created_at: min
+        total_amount: sum
+
+entity_resolution:
+  method: exact
+  join_attribute: email
+  missing_values_match: false

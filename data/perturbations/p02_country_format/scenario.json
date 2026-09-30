@@ -1,0 +1,28 @@
+{
+  "scenario": "p02_country_format",
+  "description": "Les codes pays Finance deviennent des libellés en minuscules.",
+  "change": {
+    "source": "finance",
+    "column": "country_code",
+    "before_examples": [
+      "BE",
+      "CA",
+      "CM",
+      "DE",
+      "ES",
+      "FR",
+      "IT"
+    ],
+    "after_examples": [
+      "belgium",
+      "cameroon",
+      "canada",
+      "france",
+      "germany",
+      "italy",
+      "spain"
+    ],
+    "schema_modified": false,
+    "values_modified": true
+  }
+}

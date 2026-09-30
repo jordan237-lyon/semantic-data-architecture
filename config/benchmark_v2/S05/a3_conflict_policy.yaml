@@ -1,0 +1,16 @@
+architecture: A3
+scenario: S05
+source: mixed_events
+semantic_model: semantic/scenarios/a3_s05_model.yaml
+column: customer_id
+pattern_classes:
+  - pattern: ^TKT-
+    semantic_attribute: SupportTicket.identifier
+  - pattern: ^CRM
+    semantic_attribute: Customer.identifier
+decision_policy:
+  minimum_dominant_share_for_single_mapping: 0.95
+  mixed_semantic_classes: review
+  unknown_pattern: reject
+  silent_acceptance: forbidden
+

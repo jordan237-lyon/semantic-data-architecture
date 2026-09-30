@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
+<title id="title">Baseline — lecture visuelle de l’évaluation</title>
+<desc id="desc">Tableau de bord présentant le F1 global, les volumes d’erreurs, les scores par relation et la matrice des faux positifs.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#667085}.heading{font-size:17px;font-weight:700}.label{font-size:13px;font-weight:600}.small{font-size:12px;fill:#667085}.value{font-size:13px;font-weight:700}.big{font-size:30px;font-weight:700}</style>
+<text x="600" y="38" text-anchor="middle" class="title">Baseline — lecture visuelle de l’évaluation</text>
+<text x="600" y="64" text-anchor="middle" class="subtitle">Matching exact sur l’e-mail normalisé</text>
+<text x="165" y="125" text-anchor="middle" class="big">0.962</text>
+<text x="165" y="150" text-anchor="middle" class="small">F1 global</text>
+<text x="420" y="125" text-anchor="middle" class="big">251</text>
+<text x="420" y="150" text-anchor="middle" class="small">associations correctes</text>
+<text x="680" y="125" text-anchor="middle" class="big">9</text>
+<text x="680" y="150" text-anchor="middle" class="small">faux positifs</text>
+<text x="935" y="125" text-anchor="middle" class="big">11</text>
+<text x="935" y="150" text-anchor="middle" class="small">faux négatifs</text>
+<text x="300" y="205" text-anchor="middle" class="heading">F1 par relation</text>
+<text x="155" y="255" text-anchor="end" class="label">CRM ↔ Support</text>
+<line x1="175" y1="250" x2="515" y2="250" stroke="#d8dee9" stroke-width="12"/>
+<line x1="175" y1="250" x2="509.2" y2="250" stroke="#2563eb" stroke-width="12"/>
+<circle cx="509.2" cy="250" r="9" fill="#2563eb"/>
+<text x="531" y="255" class="value">0.983</text>
+<text x="155" y="345" text-anchor="end" class="label">CRM ↔ Finance</text>
+<line x1="175" y1="340" x2="515" y2="340" stroke="#d8dee9" stroke-width="12"/>
+<line x1="175" y1="340" x2="509.8" y2="340" stroke="#2563eb" stroke-width="12"/>
+<circle cx="509.8" cy="340" r="9" fill="#2563eb"/>
+<text x="531" y="345" class="value">0.985</text>
+<text x="155" y="435" text-anchor="end" class="label">Support ↔ Finance</text>
+<line x1="175" y1="430" x2="515" y2="430" stroke="#d8dee9" stroke-width="12"/>
+<line x1="175" y1="430" x2="482.8" y2="430" stroke="#2563eb" stroke-width="12"/>
+<circle cx="482.8" cy="430" r="9" fill="#2563eb"/>
+<text x="531" y="435" class="value">0.905</text>
+<text x="875" y="205" text-anchor="middle" class="heading">Les neuf faux positifs support-finance</text>
+<text x="875" y="228" text-anchor="middle" class="small">Valeurs d’e-mail absentes rapprochées entre elles</text>
+<text x="806.0" y="258" text-anchor="middle" class="small">ACC0029</text>
+<text x="888.0" y="258" text-anchor="middle" class="small">ACC0062</text>
+<text x="970.0" y="258" text-anchor="middle" class="small">ACC0093</text>
+<text x="751" y="320.0" text-anchor="end" class="small">SUP-0015</text>
+<rect x="765" y="275" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="806.0" y="326.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<rect x="847" y="275" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="888.0" y="326.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<rect x="929" y="275" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="970.0" y="326.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<text x="751" y="402.0" text-anchor="end" class="small">SUP-0048</text>
+<rect x="765" y="357" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="806.0" y="408.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<rect x="847" y="357" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="888.0" y="408.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<rect x="929" y="357" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="970.0" y="408.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<text x="751" y="484.0" text-anchor="end" class="small">SUP-0084</text>
+<rect x="765" y="439" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="806.0" y="490.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<rect x="847" y="439" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="888.0" y="490.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<rect x="929" y="439" width="82" height="82" fill="#fee2e2" stroke="#d8dee9"/>
+<text x="970.0" y="490.0" text-anchor="middle" font-size="30" font-weight="700" fill="#dc2626">×</text>
+<line x1="80" y1="585" x2="1120" y2="585" stroke="#d8dee9"/>
+<text x="600" y="630" text-anchor="middle" class="heading">Ce que montre ce premier test</text>
+<rect x="120" y="670" width="20" height="20" fill="#16a34a"/>
+<text x="155" y="685" class="label">Les relations CRM sont très fiables : aucune mauvaise association.</text>
+<rect x="120" y="718" width="20" height="20" fill="#f59e0b"/>
+<text x="155" y="733" class="label">La baseline manque 11 associations attendues au total.</text>
+<rect x="120" y="766" width="20" height="20" fill="#dc2626"/>
+<text x="155" y="781" class="label">L’absence d’e-mail crée un produit croisé de 3 × 3 faux rapprochements.</text>
+<text x="600" y="825" text-anchor="middle" class="subtitle">Conclusion : la règle exacte est performante, mais elle confond absence de valeur et égalité.</text>
+</svg>

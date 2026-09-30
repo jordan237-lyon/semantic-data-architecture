@@ -1,0 +1,158 @@
+{
+  "objective": "Compare a manual ETL baseline with semantic-assisted integration under identical data changes.",
+  "final_nominal_quality": {
+    "baseline": {
+      "expected_pairs": 262,
+      "predicted_pairs": 251,
+      "true_positives": 251,
+      "false_positives": 0,
+      "false_negatives": 11,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    },
+    "semantic": {
+      "expected_pairs": 262,
+      "predicted_pairs": 251,
+      "true_positives": 251,
+      "false_positives": 0,
+      "false_negatives": 11,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558
+    }
+  },
+  "final_performance": {
+    "baseline": {
+      "wall_time_seconds": {
+        "mean": 0.032033904,
+        "median": 0.031386479,
+        "min": 0.0299135,
+        "max": 0.044379042,
+        "standard_deviation": 0.002560229
+      },
+      "cpu_time_seconds": {
+        "mean": 0.031668967,
+        "median": 0.031292,
+        "min": 0.029825,
+        "max": 0.040398,
+        "standard_deviation": 0.001886264
+      },
+      "python_peak_memory_bytes": {
+        "mean": 514869.2,
+        "median": 517560.0,
+        "min": 507029,
+        "max": 524237,
+        "standard_deviation": 5557.130898824
+      }
+    },
+    "semantic": {
+      "wall_time_seconds": {
+        "mean": 0.166291836,
+        "median": 0.163417083,
+        "min": 0.1588275,
+        "max": 0.2038525,
+        "standard_deviation": 0.0092359
+      },
+      "cpu_time_seconds": {
+        "mean": 0.163237,
+        "median": 0.1623535,
+        "min": 0.15805,
+        "max": 0.17514,
+        "standard_deviation": 0.004692251
+      },
+      "python_peak_memory_bytes": {
+        "mean": 717843.866666667,
+        "median": 717784.0,
+        "min": 713469,
+        "max": 727393,
+        "standard_deviation": 3682.568168487
+      }
+    },
+    "semantic_to_baseline_wall_time_ratio": 5.206608,
+    "semantic_to_baseline_python_memory_ratio": 1.386861
+  },
+  "experiments": [
+    {
+      "experiment": "Nominal quality",
+      "change": "Three original sources",
+      "baseline_outcome": "success",
+      "semantic_outcome": "success",
+      "baseline_effort": "19 mappings; 12 rules",
+      "semantic_effort": "17 automatic; 2 validations",
+      "baseline_metric": 0.978558,
+      "semantic_metric": 0.978558
+    },
+    {
+      "experiment": "P01 renamed column",
+      "change": "support.mail -> customer_email_address",
+      "baseline_outcome": "failed before code adaptation",
+      "semantic_outcome": "success after 1 validation",
+      "baseline_effort": "code adaptation required",
+      "semantic_effort": "1 incremental validation; 0 code",
+      "baseline_metric": "failed",
+      "semantic_metric": 0.978558
+    },
+    {
+      "experiment": "P02 value format",
+      "change": "country codes -> lowercase names",
+      "baseline_outcome": "0% -> 100% conformity",
+      "semantic_outcome": "0% -> 100% conformity",
+      "baseline_effort": "1 Python rule",
+      "semantic_effort": "7 YAML vocabulary entries",
+      "baseline_metric": 1.0,
+      "semantic_metric": 1.0
+    },
+    {
+      "experiment": "P03 merged columns",
+      "change": "first_name + last_name -> customer_name",
+      "baseline_outcome": "failed -> success",
+      "semantic_outcome": "automatic success",
+      "baseline_effort": "1 Python rule",
+      "semantic_effort": "0 change; 0 validation",
+      "baseline_metric": 0.978558,
+      "semantic_metric": 0.978558
+    },
+    {
+      "experiment": "Scale x10",
+      "change": "865 -> 8650 source rows",
+      "baseline_outcome": "stable after null fix",
+      "semantic_outcome": "stable without change",
+      "baseline_effort": "1 Python null-handling rule",
+      "semantic_effort": "0 change",
+      "baseline_metric": 0.978558,
+      "semantic_metric": 0.978558
+    },
+    {
+      "experiment": "Fourth source",
+      "change": "80 Loyalty members; 5 new columns",
+      "baseline_outcome": "0% -> 100% coverage",
+      "semantic_outcome": "0% -> 100% coverage",
+      "baseline_effort": "5 mappings; 5 rules; 2 Python files",
+      "semantic_effort": "4 YAML synonyms; generic orchestration; 0 validation",
+      "baseline_metric": 1.0,
+      "semantic_metric": 1.0
+    }
+  ],
+  "key_findings": [
+    "After correcting null matching, both approaches reach the same nominal entity F1 of 0.978558.",
+    "The semantic pipeline costs 5.206608x the baseline wall time and 1.386861x its measured Python peak memory on nominal data.",
+    "Semantic metadata turns P01 into a review decision and absorbs P03 automatically, while the baseline fails before code adaptation.",
+    "P02 requires adaptation in both approaches: imperative Python for the baseline and declarative YAML for semantics.",
+    "At x10, the baseline F1 improves from 0.832504 to 0.978558 after fixing null joins.",
+    "The fourth source reaches perfect CRM-Loyalty matching in both approaches; semantic mappings are automatic after vocabulary and generic-orchestration improvements."
+  ],
+  "limitations": [
+    "Synthetic datasets and one business domain limit external validity.",
+    "Entity matching relies on exact normalized e-mail and does not test probabilistic identity resolution.",
+    "Performance was measured on one machine with small-to-medium datasets and Python allocation memory only.",
+    "Effort counts rules, mappings, validations and changed artifacts, not human working time.",
+    "The semantic vocabulary was curated with knowledge of the domain, so results do not represent zero-knowledge onboarding.",
+    "The fourth-source semantic path required a one-time generic orchestration refactor in addition to YAML enrichment."
+  ],
+  "unused_checks": {
+    "p02_before_conformity": 0.0,
+    "p03_baseline_before": "failed",
+    "loyalty_coverage_before": 0.0
+  }
+}

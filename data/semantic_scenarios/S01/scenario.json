@@ -1,0 +1,19 @@
+{
+  "scenario": "S01",
+  "title": "Même nom, sens différent",
+  "changed_sources": [
+    "crm",
+    "support"
+  ],
+  "ambiguous_column": "status",
+  "crm_status_distribution": {
+    "active": 96,
+    "inactive": 24
+  },
+  "support_status_distribution": {
+    "closed": 325,
+    "open": 170
+  },
+  "entity_links_modified": false,
+  "architectures_executed": []
+}

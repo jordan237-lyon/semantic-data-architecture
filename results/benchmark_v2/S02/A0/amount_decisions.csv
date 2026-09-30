@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute,decision,confidence,reason
+finance,gross_amount,Transaction.amount,accepted,manual,Règle manuelle explicite
+sales,turnover_value,Transaction.amount,accepted,manual,Règle manuelle explicite

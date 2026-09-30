@@ -1,0 +1,5 @@
+architecture,initial_mean_outcome,final_mean_outcome,initial_safe_scenarios,final_safe_scenarios,initial_human_reviews,silent_wrong_acceptances,post_detection_adaptation_actions
+A0,1.0,1.0,5,5,0,0,0
+A1,0.26,0.26,4,4,7,70,0
+A2,0.66,1.0,3,5,0,71,4
+A3,0.8,0.8,5,5,4,0,0

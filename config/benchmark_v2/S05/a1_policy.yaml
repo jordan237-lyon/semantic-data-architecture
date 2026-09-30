@@ -1,0 +1,14 @@
+architecture: A1
+scenario: S05
+knowledge_scope: technical_metadata_only
+observed_column:
+  name: customer_id
+  inferred_type: string
+  unique_ratio: 1.0
+expected_inference:
+  technical_role: identifier
+  decision: mapped
+semantic_entity_available: false
+value_pattern_conflict_detection: false
+risk: Le rôle identifier est reconnu, mais l'entité Customer est suggérée uniquement par le nom.
+

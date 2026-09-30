@@ -1,0 +1,22 @@
+extends: ../a2_model.yaml
+
+# Adaptation déclarative mesurée pour P05 : ajout explicite de Loyalty.
+overrides:
+  add_sources:
+    loyalty:
+      entity_identifier: member_id
+      granularity: customer
+      mappings:
+        member_id:
+          target: customer_id
+        display_name:
+          target: full_name
+        email_address:
+          target: email
+          transformations: [trim, lowercase]
+        market:
+          target: country
+          transformations: [country_dictionary]
+        joined_on:
+          target: created_at
+          transformations: [parse_date]

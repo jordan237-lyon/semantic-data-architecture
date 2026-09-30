@@ -1,0 +1,103 @@
+{
+  "architecture": "A1",
+  "results": [
+    {
+      "scenario": "P01",
+      "variant": "default",
+      "sources": 3,
+      "profiled_columns": 19,
+      "mapped_technical_roles": 13,
+      "review_columns": 6,
+      "output_rows": 126,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.027765,
+      "crm_loyalty_f1": ""
+    },
+    {
+      "scenario": "P02",
+      "variant": "default",
+      "sources": 3,
+      "profiled_columns": 19,
+      "mapped_technical_roles": 12,
+      "review_columns": 7,
+      "output_rows": 126,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.027584,
+      "crm_loyalty_f1": ""
+    },
+    {
+      "scenario": "P03",
+      "variant": "default",
+      "sources": 3,
+      "profiled_columns": 18,
+      "mapped_technical_roles": 13,
+      "review_columns": 5,
+      "output_rows": 126,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.027096,
+      "crm_loyalty_f1": ""
+    },
+    {
+      "scenario": "P04",
+      "variant": "x1",
+      "sources": 3,
+      "profiled_columns": 19,
+      "mapped_technical_roles": 13,
+      "review_columns": 6,
+      "output_rows": 126,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.026423,
+      "crm_loyalty_f1": ""
+    },
+    {
+      "scenario": "P04",
+      "variant": "x5",
+      "sources": 3,
+      "profiled_columns": 19,
+      "mapped_technical_roles": 13,
+      "review_columns": 6,
+      "output_rows": 630,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.084879,
+      "crm_loyalty_f1": ""
+    },
+    {
+      "scenario": "P04",
+      "variant": "x10",
+      "sources": 3,
+      "profiled_columns": 19,
+      "mapped_technical_roles": 13,
+      "review_columns": 6,
+      "output_rows": 1260,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.133726,
+      "crm_loyalty_f1": ""
+    },
+    {
+      "scenario": "P05",
+      "variant": "default",
+      "sources": 4,
+      "profiled_columns": 24,
+      "mapped_technical_roles": 17,
+      "review_columns": 7,
+      "output_rows": 126,
+      "precision": 1.0,
+      "recall": 0.958015,
+      "f1_score": 0.978558,
+      "median_seconds": 0.03679,
+      "crm_loyalty_f1": 1.0
+    }
+  ]
+}

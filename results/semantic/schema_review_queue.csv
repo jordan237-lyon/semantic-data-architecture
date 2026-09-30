@@ -1,0 +1,3 @@
+source,source_concept,source_column,inferred_type,detected_format,semantic_attribute,name_score,type_score,value_score,total_score,second_candidate,second_score,score_margin,decision,decision_reason
+crm,Customer,created_at,date,date,Customer.created_at,1.0,1.0,1.0,1.0,SupportTicket.created_at,0.991,0.009,review,Validation requise : marge 0.009 < 0.100
+support,SupportTicket,created_at,date,date,SupportTicket.created_at,1.0,1.0,1.0,1.0,Customer.created_at,0.991,0.009,review,Validation requise : marge 0.009 < 0.100

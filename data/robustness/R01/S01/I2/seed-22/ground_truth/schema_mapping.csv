@@ -1,0 +1,3 @@
+source,source_column,semantic_attribute
+crm,status,Customer.customer_status
+support,status,SupportTicket.ticket_status

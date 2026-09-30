@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="590" viewBox="0 0 1050 590" role="img" aria-labelledby="title desc">
+<title id="title">P01 — réaction au renommage</title>
+<desc id="desc">Comparaison de l&#x27;échec de la baseline et de la validation demandée par le moteur sémantique.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#667085}.heading{font-size:18px;font-weight:700}.label{font-size:13px;font-weight:600}.small{font-size:12px;fill:#667085}.value{font-size:14px;font-weight:700}.big{font-size:30px;font-weight:700}</style>
+<text x="525" y="38" text-anchor="middle" class="title">P01 — réaction au renommage d’une colonne</text>
+<text x="525" y="65" text-anchor="middle" class="subtitle">Même contenu, seul le nom physique de la colonne change</text>
+<rect x="250" y="95" width="220" height="55" fill="#dbeafe"/>
+<text x="360" y="128" text-anchor="middle" class="heading">support.mail</text>
+<line x1="485" y1="122" x2="555" y2="122" stroke="#2563eb" stroke-width="3"/>
+<path d="M 545 115 L 555 122 L 545 129" fill="none" stroke="#2563eb" stroke-width="3"/>
+<rect x="570" y="95" width="250" height="55" fill="#dbeafe"/>
+<text x="695" y="128" text-anchor="middle" class="heading">customer_email_address</text>
+<text x="275" y="215" text-anchor="middle" class="heading">Baseline manuelle</text>
+<text x="775" y="215" text-anchor="middle" class="heading">Moteur sémantique</text>
+<rect x="80" y="245" width="390" height="185" fill="#fee2e2"/>
+<text x="275" y="302" text-anchor="middle" class="big" fill="#dc2626">ÉCHEC</text>
+<text x="275" y="342" text-anchor="middle" class="label">KeyError: mail</text>
+<text x="275" y="375" text-anchor="middle" class="small">Le nom de colonne est codé dans transform.py</text>
+<text x="275" y="405" text-anchor="middle" class="value">Adaptation : modification du code</text>
+<rect x="580" y="245" width="390" height="185" fill="#fef3c7"/>
+<text x="775" y="295" text-anchor="middle" class="big" fill="#f59e0b">À VALIDER</text>
+<text x="775" y="335" text-anchor="middle" class="label">→ Customer.email</text>
+<text x="775" y="368" text-anchor="middle" class="small">Score 0.862 · marge 0.039</text>
+<text x="775" y="405" text-anchor="middle" class="value">Adaptation : une décision humaine</text>
+<line x1="80" y1="475" x2="970" y2="475" stroke="#d8dee9"/>
+<text x="525" y="520" text-anchor="middle" class="heading">Premier constat</text>
+<text x="525" y="552" text-anchor="middle" class="label">La baseline ne démarre plus ; la sémantique trouve le bon sens mais demande confirmation.</text>
+</svg>
